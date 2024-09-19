@@ -1,0 +1,28 @@
+{
+	title: "Go Big or go Home",
+	x: 9.0d,
+	y: -5.0d,
+	shape: "gear",
+	text: [
+		""
+	],
+	dependencies: [
+		"2a9801e5",
+		"b58484db"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8aeeb4bc",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 131"
+		}],
+		count: 48L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2854c18f",
+		type: "item",
+		item: "modularmachinery:blockcontroller"
+	}]
+}

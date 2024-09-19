@@ -1,0 +1,20 @@
+{
+	x: -11.5d,
+	y: 0.0d,
+	text: [
+		"Capacitor Banks are the second tier's main energy storage solution. They can bunch up and stack their storage, acting as a single massive battery.",
+		"",
+		"Note that upgrading from a HV capacitor does §lnot§r preserve the energy."
+	],
+	dependencies: [
+		"c009e692",
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "23b4ec30",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}]
+	}]
+}

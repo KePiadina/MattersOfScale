@@ -1,0 +1,13 @@
+{
+	title: "Quality of Life",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"These mods don't offer progress in the main questline but can help making your life a little bit easier"
+	],
+	tasks: [{
+		uid: "fd2316ea",
+		type: "checkmark",
+		title: "Don't forget!"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "6531a083",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	}]
+}

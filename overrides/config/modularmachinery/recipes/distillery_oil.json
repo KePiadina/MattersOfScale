@@ -1,0 +1,57 @@
+{
+    "machine": "distillery",
+    "registryName": "distillery_oil",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "crude_oil",
+            "amount":50
+        },
+
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "diesel",
+            "amount": 10
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "lubricant",
+            "amount": 10
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "gasoline",
+            "amount": 10
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "refined_oil",
+            "amount": 10
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "immersivepetroleum:material@0",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@833",
+            "amount": 1,
+            "chance": 0.5
+        }
+    ]
+}

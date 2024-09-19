@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -6.0d,
+	dependencies: [
+		"f7847399"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a23f988a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_3"
+		}]
+	}]
+}

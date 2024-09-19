@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "fa7f5f37",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:creative_model_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

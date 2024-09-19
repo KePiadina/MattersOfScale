@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "9a5c2dc1",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Crafting Calculator",
+	x: -5.0d,
+	y: -1.5d,
+	description: "It's dangerous to go alone, take this!",
+	text: [
+		"The Crafting Calculator lets you save recipes and see how many base materials you need for a particular recipe.",
+		"",
+		"Remember to update your recipes when you get to a better one."
+	],
+	tasks: [{
+		uid: "a80f7515",
+		type: "item",
+		items: [{
+			item: "jecalculation:item_calculator"
+		}],
+		ignore_nbt: 1b
+	}]
+}

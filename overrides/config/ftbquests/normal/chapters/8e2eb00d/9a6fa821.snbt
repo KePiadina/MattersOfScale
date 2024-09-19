@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "078e3baf",
+		type: "item",
+		items: [{
+			item: "excompressum:double_compressed_diamond_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

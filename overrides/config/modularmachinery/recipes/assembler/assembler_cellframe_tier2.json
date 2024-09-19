@@ -1,0 +1,57 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_cell2",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2048  
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateElectrum",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickConstantan",
+            "amount":6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickLumium",
+            "amount":6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustPyrotheum",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotEnergeticAlloy",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalexpansion:frame@129",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalexpansion:frame@130",
+            "amount": 1,
+            "chance": 1
+        }
+    ]
+}

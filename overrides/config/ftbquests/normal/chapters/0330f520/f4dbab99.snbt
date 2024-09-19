@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"The Coke oven can be built in a 3x3x3 cube and right clicked in one of the center blocks with the Engineer's hammer to complete.",
+		"",
+		"Its sole function is to create coal coke, a better version of coal, along with creosote oil as a byproduct."
+	],
+	dependencies: [
+		"6fede907"
+	],
+	tasks: [{
+		uid: "01f0713c",
+		type: "item",
+		title: "Bring some coke to the party",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "778a2e8c",
+		type: "item",
+		item: "immersiveengineering:tool"
+	}]
+}

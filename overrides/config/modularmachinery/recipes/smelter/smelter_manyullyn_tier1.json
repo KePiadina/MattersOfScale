@@ -1,0 +1,32 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_manyullyn1",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockCobalt",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockArdite",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:blockManyullyn",
+            "amount": 1
+        }
+    ]
+}

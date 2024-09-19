@@ -1,0 +1,17 @@
+{
+	title: "The Final Push",
+	x: 7.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"This will put to the test everything you've previously built, hope you're ready."
+	],
+	dependencies: [
+		"481bc3a2"
+	],
+	tasks: [{
+		uid: "6ad6b1a5",
+		type: "checkmark",
+		title: "The final push"
+	}]
+}

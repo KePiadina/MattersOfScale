@@ -1,0 +1,21 @@
+{
+	title: "Cool door",
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"Phasing Blocks can be used to create hidden doorways by turning solid (or non-solid) with redstone."
+	],
+	dependencies: [
+		"703c7432"
+	],
+	tasks: [{
+		uid: "ec095fc9",
+		type: "item",
+		items: [{
+			item: "enderutilities:phasing"
+		},
+		{
+			item: "enderutilities:phasing 1 1"
+		}]
+	}]
+}

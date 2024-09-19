@@ -1,0 +1,21 @@
+{
+	title: "Cyclic",
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"Cyclic adds a variety of different tools and gadgets to make exploring easier."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "a0338425",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

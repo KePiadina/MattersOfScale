@@ -1,0 +1,19 @@
+{
+	title: "Disable mobGriefing",
+	icon: "minecraft:obsidian",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "8d29b039",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "799f37ca",
+		type: "command",
+		command: "/gamerule mobGriefing false"
+	}]
+}

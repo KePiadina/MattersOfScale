@@ -1,0 +1,18 @@
+{
+	title: "OpenComputers",
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		"OpenComputers is all about programming in Lua. While not necessary in the slightest, you may find some uses in automation and management."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "ffa7b606",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage"
+		}]
+	}]
+}

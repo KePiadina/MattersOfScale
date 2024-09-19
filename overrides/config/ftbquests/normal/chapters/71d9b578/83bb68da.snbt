@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 0.5d,
+	description: "My pet Wither",
+	text: [
+		"Syringes let you freeze mobs to use as statues, signs, or to make an example out of them."
+	],
+	dependencies: [
+		"703c7432"
+	],
+	tasks: [{
+		uid: "60ea043f",
+		type: "item",
+		items: [{
+			item: "enderutilities:syringe 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

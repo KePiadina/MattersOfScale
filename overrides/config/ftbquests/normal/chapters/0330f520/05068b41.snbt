@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	text: [
+		"The Project Bench will help you batch craft items, along with looking cool"
+	],
+	tasks: [{
+		uid: "799d2763",
+		type: "item",
+		items: [{
+			item: "projectred-expansion:machine2 1 10"
+		}]
+	}]
+}

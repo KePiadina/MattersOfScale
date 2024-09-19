@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:ender_chest",
+	x: -0.5d,
+	y: 2.5d,
+	description: "Easy return to spawn",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "770c2ca8",
+		type: "checkmark",
+		title: "Enable keepInventory"
+	}],
+	rewards: [{
+		uid: "6d754f76",
+		type: "command",
+		command: "/gamerule keepInventory true"
+	}]
+}

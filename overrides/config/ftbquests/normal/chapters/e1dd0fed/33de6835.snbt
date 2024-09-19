@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	text: [
+		"Fusion Reactors can produce Neutron Fluid given various inputs, the simplest being Molten Boron-11 (obtained from centrifuging Molten Boron)"
+	],
+	tasks: [{
+		uid: "f9992db0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	}]
+}

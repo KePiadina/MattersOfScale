@@ -1,0 +1,23 @@
+{
+	title: "It all loops back",
+	x: -4.0d,
+	y: -4.5d,
+	text: [
+		"Now that you've mastered your ore generation, you can build another setup and continue the cycle forever!",
+		"",
+		"You can also choose another method, if you want."
+	],
+	dependencies: [
+		"368fbf1b",
+		"b195af87",
+		"216e6241"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6abd0ebb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:geode"
+		}]
+	}]
+}

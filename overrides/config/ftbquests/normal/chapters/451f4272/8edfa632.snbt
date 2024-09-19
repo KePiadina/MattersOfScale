@@ -1,0 +1,29 @@
+{
+	title: "Logistics",
+	x: -11.5d,
+	y: -1.0d,
+	description: "Time to move",
+	text: [
+		"Itemducts and fluiducts will be your first logistic pipe, able to move items and fluids from point A through a Servo to any number of destinations.",
+		"",
+		"The priority goes Vacuum > Normal > Dense, where the higher version's path will get prioritized over the others"
+	],
+	dependencies: [
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "43d95417",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		},
+		{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7a92ca5b",
+		type: "item",
+		item: "thermaldynamics:servo"
+	}]
+}

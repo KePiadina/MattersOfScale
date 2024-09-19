@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	text: [
+		"Twice the speed for twice the cost. A bargain!"
+	],
+	dependencies: [
+		"216e6241"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a6c98bab",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_6"
+		}]
+	}]
+}

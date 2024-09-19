@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "c8257d1b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:nano_cont_personal_6"
+		}]
+	}]
+}

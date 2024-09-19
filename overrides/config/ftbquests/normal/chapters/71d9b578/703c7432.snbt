@@ -1,0 +1,26 @@
+{
+	title: "Ender Utilities",
+	x: 3.0d,
+	y: 0.5d,
+	description: "I didn't even know I needed that",
+	text: [
+		"Not to be confused with Extra Utilities 2 or Ender IO, Ender Utilities add a plethora of useful blocks and items to help you make life easier"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "6be2405d",
+		type: "item",
+		items: [{
+			item: "enderutilities:enderpart"
+		},
+		{
+			item: "enderutilities:enderpart 1 1"
+		},
+		{
+			item: "enderutilities:enderpart 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,109 @@
+{
+    "machine": "dye_mixer",
+    "registryName": "dye_dye",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dyeRed",
+            "amount": 32
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dyeGreen",
+            "amount": 32
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dyeBlue",
+            "amount": 32
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@0",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@3",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@5",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@6",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@7",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@8",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@9",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@10",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@11",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@12",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@13",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@14",
+            "amount": 16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:dye@15",
+            "amount": 16
+        }
+    ]
+}

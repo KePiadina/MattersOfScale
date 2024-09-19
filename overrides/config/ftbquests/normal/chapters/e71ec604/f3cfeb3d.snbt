@@ -1,0 +1,15 @@
+{
+	title: "What you will find in this modpack",
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"- Automation, a lot of it",
+		"- Alternate recipes for items",
+		"- Scaling energy economy",
+		"- Turtling. You could probably beat this modpack playing it skyblock-style"
+	],
+	tasks: [{
+		uid: "49342dec",
+		type: "checkmark"
+	}]
+}

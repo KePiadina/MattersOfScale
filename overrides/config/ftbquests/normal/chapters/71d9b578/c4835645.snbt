@@ -1,0 +1,20 @@
+{
+	title: "Industrial Renewal",
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"Industrial Renewal adds catwalks, platforms, railings, and everything you need to create a proper factory building.",
+		"",
+		"It also includes cheap energy and item storage"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "55dbf9ff",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:screwdrive"
+		}]
+	}]
+}

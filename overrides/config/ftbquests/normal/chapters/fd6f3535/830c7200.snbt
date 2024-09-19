@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -7.5d,
+	dependencies: [
+		"cf0aff90"
+	],
+	tasks: [{
+		uid: "9bb223c7",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "5450b25b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:koreandinneritem"
+		}]
+	}]
+}

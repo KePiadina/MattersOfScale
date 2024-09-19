@@ -1,0 +1,74 @@
+{
+	title: "Excavator",
+	x: -12.5d,
+	y: -7.0d,
+	text: [
+		"Excavators have been made cheaper (in terms of energy) to be about the same as a Tier 1 Void Ore Miner.",
+		"",
+		"Additionally, ore veins now don't run out anymore, meaning you can build it once and have it run forever in that vein"
+	],
+	dependencies: [
+		"c2a0f123"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6e7eab02",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 5L
+	},
+	{
+		uid: "77f4d34d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 9L
+	},
+	{
+		uid: "f032f21d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "d5081173",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}],
+		count: 15L
+	},
+	{
+		uid: "186d59fb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 35L
+	},
+	{
+		uid: "b82efd3a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:storage 1 8"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ede7c65c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 7"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "b64dc237",
+		type: "item",
+		item: "immersiveengineering:metal_device1 1 7"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "2cacf1c8",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 4
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

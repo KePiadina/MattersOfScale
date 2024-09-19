@@ -1,0 +1,21 @@
+{
+	title: "Pyric Smelter",
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"The Pyric Smelter is a massive furnace capable of producing alloys of all kinds"
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "4855eba6",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:pyric_smelter"
+			}
+		}]
+	}]
+}

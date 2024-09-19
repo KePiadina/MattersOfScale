@@ -1,0 +1,20 @@
+{
+	title: "Welcome to Matters of Scale!",
+	x: 0.0d,
+	y: 0.5d,
+	shape: "gear",
+	text: [
+		"This is a fully tech-centered modpack revolving around tiered mods. You may be familiar with the concept if you've played more complex modpacks such as Enigmatica 2 Expert or GregTech-based modpacks."
+	],
+	tasks: [{
+		uid: "61aeb58c",
+		type: "checkmark",
+		title: "The Beginning"
+	}],
+	rewards: [{
+		uid: "9dfe3016",
+		type: "item",
+		item: "harvestcraft:lasagnaitem",
+		count: 8
+	}]
+}

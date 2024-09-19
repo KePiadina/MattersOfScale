@@ -1,0 +1,37 @@
+{
+	title: "Environmental Tech",
+	x: -10.5d,
+	y: -6.0d,
+	text: [
+		"Environmental Tech lets you create Void Ore Miners, which generate ores with energy and time.",
+		"",
+		"While perfectly autonomous, they will also take up a lot of time and resources at the beginning, along with getting very energy-hungry"
+	],
+	dependencies: [
+		"c2a0f123"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5d5352b5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:diode"
+		}]
+	}],
+	rewards: [{
+		uid: "5d0105ed",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "b8e8813c",
+		type: "item",
+		item: "environmentaltech:litherite",
+		count: 4
+	},
+	{
+		uid: "d7054f78",
+		type: "item",
+		item: "environmentaltech:tool_multiblock_assembler"
+	}]
+}

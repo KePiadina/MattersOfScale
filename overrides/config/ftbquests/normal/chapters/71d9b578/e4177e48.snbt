@@ -1,0 +1,34 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	text: [
+		"Handy Bags expand your inventory multiple times over, while also being able to store more items per stack.",
+		"",
+		"Pretty §oHandy§r, you could say."
+	],
+	dependencies: [
+		"703c7432"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "8ef51780",
+		type: "item",
+		items: [{
+			item: "enderutilities:handybag"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "660529a2",
+		type: "item",
+		items: [{
+			item: "enderutilities:handybag 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3aca41bc",
+		type: "item",
+		item: "enderutilities:enderpart 1 54"
+	}]
+}

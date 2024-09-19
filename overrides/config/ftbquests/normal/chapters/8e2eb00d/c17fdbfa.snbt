@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "8abeba14",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}]
+	}]
+}

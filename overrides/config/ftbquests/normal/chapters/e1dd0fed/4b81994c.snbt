@@ -1,0 +1,23 @@
+{
+	title: "Precision Assembler",
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"The Precision Assembler lets you create massive amounts of circuitry and components at incredible speeds.",
+		"",
+		"I highly recommend you make one for Resonant Cell Frames"
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "e24b52bf",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:precision_assembler"
+			}
+		}]
+	}]
+}

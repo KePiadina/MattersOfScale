@@ -1,0 +1,23 @@
+{
+	title: "Laser Empowerer",
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"The AA Empowerer has been removed, in favor of the more expensive multiblock.",
+		"",
+		"Most empowered crystal recipes have been converted to a cheaper material."
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "aea79513",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:empowerer"
+			}
+		}]
+	}]
+}

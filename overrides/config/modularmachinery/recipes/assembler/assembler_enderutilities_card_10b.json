@@ -1,0 +1,32 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_card10b",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderutilities:enderpart@50",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@37",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderutilities:enderpart@53",
+            "amount": 1
+        }
+    ]
+}

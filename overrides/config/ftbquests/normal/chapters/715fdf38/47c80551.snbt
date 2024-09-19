@@ -1,0 +1,24 @@
+{
+	title: "Conduits",
+	x: -4.5d,
+	y: -0.5d,
+	description: "How do they even fit?",
+	text: [
+		"EnderIO Conduits have 2 special properties:",
+		"",
+		"First, you can fit multiple conduits within the same block, letting you occupy 1 block for fluids, items, energy, and so on",
+		"",
+		"Second, colors. Colors let you move separate lines through the same conduit. Think of it as each conduit being 16 sub-conduits.",
+		"Colors will never overlap, meaning that any insert/extract conduit with color A will never interact with any other insert/extract conduit that is not also color A"
+	],
+	dependencies: [
+		"4cf05e94"
+	],
+	tasks: [{
+		uid: "c4b3dd24",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 22"
+		}]
+	}]
+}

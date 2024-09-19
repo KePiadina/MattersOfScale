@@ -1,0 +1,44 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_zlogic",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16384
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotSoularium",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:skull@2",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:itemSilicon",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotVibrantAlloy",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_material@41",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+	title: "Mekanism Pipes",
+	x: -9.0d,
+	y: -5.0d,
+	description: "The most unsearchable names in the game",
+	text: [
+		"Mekanism pipes have been buffed in order to meet multiblocks' energy and input demands"
+	],
+	tasks: [{
+		uid: "676e3931",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			}
+		}]
+	},
+	{
+		uid: "3b468efa",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "62957315",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "00dc3448",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "5df8e705",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}]
+	}]
+}

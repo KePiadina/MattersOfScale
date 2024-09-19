@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "9b8ec697",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage 1 4"
+		}]
+	}]
+}

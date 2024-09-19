@@ -1,0 +1,52 @@
+{
+	title: "Nether Data Models",
+	icon: "deepmoblearning:data_model_blaze",
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"f3b06f01"
+	],
+	optional: true,
+	tasks: [{
+		uid: "23c647be",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blaze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "67f1d9d5",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_ghast"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "daf48376",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither_skeleton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db37369c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec5e3100",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 256
+	}]
+}

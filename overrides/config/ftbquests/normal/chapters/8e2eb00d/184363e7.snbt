@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "5a6079c6",
+		type: "item",
+		items: [{
+			id: "powersuits:powerarmor_head",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Distillery",
+	x: -6.0d,
+	y: -4.5d,
+	text: [
+		"The Immersive Petroleum Distillation Tower has been disabled, this tiny version will do its job."
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "d6228c69",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:distillery"
+			}
+		}]
+	}]
+}

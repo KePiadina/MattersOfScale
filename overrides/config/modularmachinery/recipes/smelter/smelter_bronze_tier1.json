@@ -1,0 +1,32 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_bronze0",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockCopper",
+            "amount":3
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockTin",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:blockBronze",
+            "amount": 4
+        }
+    ]
+}

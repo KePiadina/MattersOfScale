@@ -1,0 +1,15 @@
+{
+	x: -8.0d,
+	y: -3.0d,
+	dependencies: [
+		"39e695f9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4dfb2188",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	}]
+}

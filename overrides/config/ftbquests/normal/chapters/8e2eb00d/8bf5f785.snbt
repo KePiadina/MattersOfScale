@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "26a24a0a",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity 1 2"
+		}]
+	}]
+}

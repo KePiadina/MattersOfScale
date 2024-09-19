@@ -1,0 +1,41 @@
+{
+	title: "Forge Multiblocks",
+	x: 2.0d,
+	y: -5.5d,
+	text: [
+		"Multiblocks allows you to create sub-blocks (half slabs, pillars, edges, and covers) for decoration.",
+		"",
+		"Note they are not always compatible with pipes, you'll have to use the respective mod's cover for that"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "a0dace7f",
+		type: "item",
+		title: "Any Saw",
+		items: [{
+			item: "microblockcbe:saw_diamond"
+		},
+		{
+			item: "microblockcbe:saw_stone"
+		},
+		{
+			item: "projectred-exploration:peridot_saw"
+		},
+		{
+			item: "projectred-exploration:ruby_saw"
+		},
+		{
+			item: "projectred-exploration:sapphire_saw"
+		},
+		{
+			item: "microblockcbe:saw_iron"
+		},
+		{
+			item: "projectred-exploration:golden_saw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

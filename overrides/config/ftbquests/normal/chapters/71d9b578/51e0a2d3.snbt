@@ -1,0 +1,18 @@
+{
+	title: "Industrial Foregoing",
+	x: -5.0d,
+	y: -1.5d,
+	text: [
+		"While locked to Mekanism, Industrial Foregoing is actually a major mod that can benefit industrialization massively with various little tasks"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "100581b8",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}]
+	}]
+}

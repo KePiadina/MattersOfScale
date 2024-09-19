@@ -1,0 +1,22 @@
+{
+	title: "Biomass Burner",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"The Biomass Burner is an effective machine for managing multiblock energy demands"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "bcb8a588",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:generator_biomass"
+			}
+		}]
+	}]
+}

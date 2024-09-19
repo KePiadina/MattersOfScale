@@ -1,0 +1,32 @@
+{
+	title: "Deep Mob Evolution",
+	x: -10.5d,
+	y: -3.0d,
+	text: [
+		"Deep Mob Evolution uses data models and Polymer Clay to simulate mobs and their drops, generating pristine matter to consume in Loot Fabricators.",
+		"",
+		"In this pack, Loot Fabricators can also produce ingots and gems."
+	],
+	dependencies: [
+		"c2a0f123"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f3ebe78e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "e7ab2c97",
+		type: "item",
+		item: "deepmoblearning:deep_learner"
+	},
+	{
+		uid: "ede8e0d7",
+		type: "item",
+		item: "deepmoblearning:simulation_chamber",
+		count: 2
+	}]
+}

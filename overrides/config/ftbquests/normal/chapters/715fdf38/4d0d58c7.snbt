@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Tier Installers are an alternate way to create factories, other than crafting."
+	],
+	dependencies: [
+		"4cf05e94"
+	],
+	tasks: [{
+		uid: "5fa272f1",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

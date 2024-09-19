@@ -1,0 +1,38 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_stellar_alloy1",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockMelodicAlloy",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:nether_star",
+            "amount":9
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockClay",
+            "amount":4
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:blockStellarAlloy",
+            "amount": 1
+        }
+    ]
+}

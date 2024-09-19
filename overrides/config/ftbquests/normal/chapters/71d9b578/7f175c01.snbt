@@ -1,0 +1,16 @@
+{
+	title: "ArchitectureCraft",
+	x: 0.0d,
+	y: -5.5d,
+	description: "Why are there spheres in my game",
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "9edb1f68",
+		type: "item",
+		items: [{
+			item: "architecturecraft:sawbench"
+		}]
+	}]
+}

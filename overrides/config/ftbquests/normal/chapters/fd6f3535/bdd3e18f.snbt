@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -9.0d,
+	dependencies: [
+		"6d95b446"
+	],
+	tasks: [{
+		uid: "41c688a6",
+		type: "item",
+		items: [{
+			item: "mekanism:compressedredstone"
+		}]
+	}]
+}

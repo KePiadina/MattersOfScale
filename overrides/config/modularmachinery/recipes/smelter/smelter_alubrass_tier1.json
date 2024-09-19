@@ -1,0 +1,32 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_alubrass1",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockAluminum",
+            "amount":3
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:blockCopper",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:blockAlubrass",
+            "amount": 1
+        }
+    ]
+}

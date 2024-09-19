@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -10.5d,
+	text: [
+		"An Ultimate Bin can store up to 3.145.728 of a single item"
+	],
+	dependencies: [
+		"18a4a9f8"
+	],
+	tasks: [{
+		uid: "a05f4188",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock",
+			tag: {
+				tier: 3
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}]
+}

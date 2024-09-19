@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "da7e5dd2",
+		type: "item",
+		items: [{
+			item: "rftools:flight_module"
+		}]
+	}]
+}

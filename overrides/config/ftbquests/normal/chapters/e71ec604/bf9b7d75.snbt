@@ -1,0 +1,20 @@
+{
+	icon: "extrautils2:minichest",
+	x: -0.5d,
+	y: 3.5d,
+	description: "Graves are still there",
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "8e995427",
+		type: "checkmark",
+		title: "Disable keepInventory"
+	}],
+	rewards: [{
+		uid: "e44d1ed9",
+		type: "command",
+		command: "/gamerule keepInventory false"
+	}]
+}

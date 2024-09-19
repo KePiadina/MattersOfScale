@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "1ed1cce8",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
+	}]
+}

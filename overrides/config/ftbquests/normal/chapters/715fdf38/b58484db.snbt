@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: -2.5d,
+	description: "Time for microplastics",
+	text: [
+		"The final tier of plastic, it massively increases the yield of crafting recipes"
+	],
+	dependencies: [
+		"6333a62b",
+		"0fef24ce",
+		"587fb32a"
+	],
+	tasks: [{
+		uid: "021da59c",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene 1 2"
+		}]
+	}]
+}

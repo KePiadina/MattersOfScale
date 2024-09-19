@@ -1,0 +1,38 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_end_steel0",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:endstone",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotDarkSteel",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotRefinedObsidian",
+            "amount":1
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:ingotEndSteel",
+            "amount": 1
+        }
+    ]
+}

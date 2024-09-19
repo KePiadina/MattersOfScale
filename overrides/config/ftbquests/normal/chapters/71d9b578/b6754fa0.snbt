@@ -1,0 +1,33 @@
+{
+	title: "Chisel",
+	x: 1.0d,
+	y: -5.5d,
+	text: [
+		"Chisel lets you customize many blocks into different patterns, to avoid repetiveness and better the aestethic of your base."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "327504ee",
+		type: "item",
+		title: "Any chisel",
+		items: [{
+			item: "chisel:chisel_iron"
+		},
+		{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		},
+		{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "24f19614",
+		type: "item",
+		items: [{
+			item: "moreplates:infinity_gear"
+		}]
+	}]
+}

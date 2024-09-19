@@ -1,0 +1,38 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_itemconduit2",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotPulsatingIron",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "mekanism:polyethene@2",
+            "amount": 3
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_item_conduit",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_item_conduit",
+            "amount": 8
+        }
+    ]
+}

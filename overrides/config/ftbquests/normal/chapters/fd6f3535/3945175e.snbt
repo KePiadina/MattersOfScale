@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -10.5d,
+	text: [
+		"The Quantum Storage Unit can store up to 2.147.483.647 of one item",
+		"",
+		"Now, where would you ever get that many?"
+	],
+	dependencies: [
+		"3090f92b"
+	],
+	tasks: [{
+		uid: "be0f7e09",
+		type: "item",
+		items: [{
+			item: "quantumstorage:quantum_storage_unit"
+		}]
+	}]
+}

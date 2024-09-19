@@ -1,0 +1,18 @@
+{
+	title: "Extra Utilities 2",
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"Extra Utilities 2, which you may or may not have already used for its array of generators in tier 1, also offers various other items and, well, utilities."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "7cb0363b",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 10"
+		}]
+	}]
+}

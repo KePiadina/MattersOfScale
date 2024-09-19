@@ -1,0 +1,49 @@
+{
+    "machine": "empowerer",
+    "registryName": "empowerer_restonia",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 40960
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_crystal",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotRedAlloy",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:gemCrystalFlux",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:slimeballBlood",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:itemCinnabar",
+            "amount": 1
+        },
+        
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "actuallyadditions:item_crystal_empowered",
+            "amount": 1
+        }
+    ]
+}

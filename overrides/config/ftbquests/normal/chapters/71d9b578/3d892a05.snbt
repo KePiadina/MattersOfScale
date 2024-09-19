@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"500a0092"
+	],
+	tasks: [{
+		uid: "6d07b5da",
+		type: "item",
+		items: [{
+			item: "projectred-integration:gate 1 17"
+		}]
+	}]
+}

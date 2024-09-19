@@ -1,0 +1,19 @@
+{
+	title: "Set difficulty to Peaceful",
+	icon: "minecraft:red_flower",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"Note that this will make the DME route impossible"
+	],
+	tasks: [{
+		uid: "382676d8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5f9c149a",
+		type: "command",
+		command: "/difficulty peaceful",
+		player_command: true
+	}]
+}

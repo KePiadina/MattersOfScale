@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -7.0d,
+	dependencies: [
+		"5e4e27bb"
+	],
+	tasks: [{
+		uid: "bc5cbbdd",
+		type: "item",
+		items: [{
+			item: "quantumstorage:quantum_battery"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

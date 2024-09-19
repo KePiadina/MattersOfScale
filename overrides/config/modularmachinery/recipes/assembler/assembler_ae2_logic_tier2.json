@@ -1,0 +1,40 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_logic2",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16384
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotSignalum",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "opencomputers:material@5",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@22",
+            "amount":1,
+            "chance":0
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@22",
+            "amount": 8,
+            "chance": 1
+        }
+    ]
+}

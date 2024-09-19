@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		"For the low low price of 10000 Uranium ingots, you too can get 46 IRL days of 50 MRF/t"
+	],
+	dependencies: [
+		"8dfb4f1e"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d378c6be",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity 1 32"
+		}]
+	}]
+}

@@ -1,0 +1,92 @@
+{
+	title: "Overworld Data Models",
+	icon: "deepmoblearning:data_model_creeper",
+	x: -7.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a5d788f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a57e39f0",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_creeper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e1dd8c09",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_skeleton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3de2f5d1",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_slime"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a121bc50",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_spider"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1207336e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_witch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e483cf4",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_zombie"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "84bb734e",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_thermal_elemental"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "009b1516",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_guardian"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2bb8086",
+		type: "item",
+		team_reward: false,
+		item: "deepmoblearning:polymer_clay",
+		count: 64
+	}]
+}

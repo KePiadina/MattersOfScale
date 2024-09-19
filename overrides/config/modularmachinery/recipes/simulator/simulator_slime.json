@@ -1,0 +1,39 @@
+{
+    "machine": "simulation_supercomputer",
+    "registryName": "simulator_slime",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 32768
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "deepmoblearning:data_model_slime",
+            "amount":1,
+            "chance":0
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount":5000
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:ore@1",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:slime_ball",
+            "amount": 64
+        }
+    ]
+}

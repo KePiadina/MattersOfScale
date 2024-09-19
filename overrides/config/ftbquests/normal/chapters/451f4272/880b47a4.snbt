@@ -1,0 +1,18 @@
+{
+	x: -11.5d,
+	y: 1.0d,
+	text: [
+		"Thermoelectric Generators have been made slightly faster to craft."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "65af7736",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 3"
+		}]
+	}]
+}

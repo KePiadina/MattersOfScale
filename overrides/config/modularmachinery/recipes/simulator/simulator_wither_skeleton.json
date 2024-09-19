@@ -1,0 +1,45 @@
+{
+    "machine": "simulation_supercomputer",
+    "registryName": "simulator_wither_skeleton",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 32768
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "deepmoblearning:data_model_wither_skeleton",
+            "amount":1,
+            "chance":0
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount":5000
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:coal_ore",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:skull@1",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:bone",
+            "amount": 64
+        }
+    ]
+}

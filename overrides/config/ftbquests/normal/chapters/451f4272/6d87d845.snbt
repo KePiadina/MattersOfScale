@@ -1,0 +1,52 @@
+{
+	title: "Handy chests",
+	icon: "enderutilities:storage_0 1 5",
+	x: -7.5d,
+	y: -0.5d,
+	description: "We have AE2 at home",
+	text: [
+		"Handy Chests allow you to store large amounts of items in Memory cards."
+	],
+	dependencies: [
+		"53faafe2"
+	],
+	tasks: [{
+		uid: "ed6b4dbc",
+		type: "item",
+		title: "Any Handy Chest",
+		items: [{
+			item: "enderutilities:storage_0 1 3"
+		},
+		{
+			item: "enderutilities:storage_0 1 4"
+		},
+		{
+			item: "enderutilities:storage_0 1 5"
+		},
+		{
+			item: "enderutilities:storage_0 1 6"
+		}]
+	},
+	{
+		uid: "d15fd233",
+		type: "item",
+		title: "Any Memory Card",
+		items: [{
+			item: "enderutilities:enderpart 1 51"
+		},
+		{
+			item: "enderutilities:enderpart 1 52"
+		},
+		{
+			item: "enderutilities:enderpart 1 53"
+		},
+		{
+			item: "enderutilities:enderpart 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "21d7ddea",
+		type: "item",
+		item: "enderutilities:enderpart 1 54"
+	}]
+}

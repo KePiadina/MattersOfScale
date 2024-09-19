@@ -1,0 +1,23 @@
+{
+	title: "Tier 3: Multitasking",
+	x: -6.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"This tier will focus on compacting your factory and extending pre-existing recipes, mainly crafting."
+	],
+	dependencies: [
+		"bcef8467"
+	],
+	tasks: [{
+		uid: "95358adb",
+		type: "checkmark",
+		title: "Tier 3: Multitasking"
+	}],
+	rewards: [{
+		uid: "1b92b414",
+		type: "item",
+		item: "mekanism:basicblock 1 8",
+		count: 3
+	}]
+}

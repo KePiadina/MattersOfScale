@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.5d,
+	dependencies: [
+		"703c7432"
+	],
+	tasks: [{
+		uid: "1bbdc75e",
+		type: "item",
+		items: [{
+			item: "enderutilities:machine_1 1 2"
+		}]
+	}]
+}

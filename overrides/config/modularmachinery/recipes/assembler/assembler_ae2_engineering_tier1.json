@@ -1,0 +1,45 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_engineering1",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16384
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "environmentaltech:ionite_crystal",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "redstone",
+            "amount":250
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateSilicon",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@24",
+            "amount":1,
+            "chance":0
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@24",
+            "amount": 8
+        }
+    ]
+}

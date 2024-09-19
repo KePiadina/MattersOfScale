@@ -1,0 +1,71 @@
+{
+	title: "Your First Generator",
+	x: 0.0d,
+	y: 1.0d,
+	text: [
+		"While weak, this will be your first power source and energy storage of the playthrough.",
+		"",
+		"While weak, you won't need that much energy until tier 2"
+	],
+	dependencies: [
+		"6fede907"
+	],
+	tasks: [{
+		uid: "341a2c72",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ice"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_death"
+			}
+		},
+		{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		},
+		{
+			item: "enderio:block_simple_stirling_generator"
+		},
+		{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}]
+}

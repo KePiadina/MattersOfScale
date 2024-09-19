@@ -1,0 +1,46 @@
+{
+    "machine": "vivarium",
+    "registryName": "vivarium_lily",
+    "recipeTime": 80,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 32768
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:waterlily",
+            "amount":1,
+            "chance":0
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "cloud_seed",
+            "amount":5000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "glowstone",
+            "amount":5000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount":1000,
+            "chance":0
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:waterlily",
+            "amount": 64
+        }
+    ]
+}

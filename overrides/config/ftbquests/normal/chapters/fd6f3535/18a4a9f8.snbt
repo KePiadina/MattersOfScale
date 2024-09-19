@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -10.5d,
+	text: [
+		"A maxed out Resonant Cache with Holding 4 can store up to 1.875.000 of a single item"
+	],
+	dependencies: [
+		"581563c9"
+	],
+	tasks: [{
+		uid: "ebe0a117",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cache",
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -11.5d,
+	text: [
+		"A 64k ME storage cell can store a variable number of items, from 520k for 1 item to about 8000 for 63 different items."
+	],
+	dependencies: [
+		"30f85c02",
+		"3945175e"
+	],
+	tasks: [{
+		uid: "e09c8298",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

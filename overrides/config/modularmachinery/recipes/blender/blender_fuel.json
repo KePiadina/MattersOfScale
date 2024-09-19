@@ -1,0 +1,37 @@
+{
+    "machine": "blender",
+    "registryName": "blender_fuel",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refined_oil",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refined_fuel",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refined_biofuel",
+            "amount": 1000
+        },
+        
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "rocket_fuel",
+            "amount": 1000
+        }
+    ]
+}

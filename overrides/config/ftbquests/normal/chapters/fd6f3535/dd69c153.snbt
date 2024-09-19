@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -12.0d,
+	text: [
+		"Modular Storage can store up to 300 stacks of items"
+	],
+	dependencies: [
+		"21b1fb74"
+	],
+	tasks: [{
+		uid: "676842a5",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	},
+	{
+		uid: "41b3b82b",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module"
+		},
+		{
+			item: "rftools:storage_module 1 1"
+		},
+		{
+			item: "rftools:storage_module 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

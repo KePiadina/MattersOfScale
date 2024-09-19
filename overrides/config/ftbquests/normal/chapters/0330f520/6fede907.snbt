@@ -1,0 +1,25 @@
+{
+	title: "Tier 1: The beginning",
+	x: -5.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"The first tier will focus on getting you the basic components to make a good base"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "05039e1b",
+		type: "checkmark",
+		title: "Tier 1"
+	}],
+	rewards: [{
+		uid: "f6509355",
+		type: "item",
+		item: "akashictome:tome"
+	},
+	{
+		uid: "bd89da33",
+		type: "item",
+		item: "omniwand:wand"
+	}]
+}

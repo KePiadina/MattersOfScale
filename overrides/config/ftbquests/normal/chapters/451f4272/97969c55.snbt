@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"The Ender Dragon Data Model can generate any ore from the previous ones. How convenient!"
+	],
+	dependencies: [
+		"368fbf1b"
+	],
+	tasks: [{
+		uid: "27c2efeb",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_dragon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

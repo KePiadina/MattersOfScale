@@ -1,0 +1,20 @@
+{
+	title: "ProjectRed",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"ProjectRed completely revolutionizes redstone by adding many different mechanics such as channels (letting multiple signals run through the same block), logic gates, and much more.",
+		"",
+		"You may need a degree in telecommunications to use it to its fullest potential."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "d7d03c90",
+		type: "item",
+		items: [{
+			item: "projectred-transmission:wire"
+		}]
+	}]
+}

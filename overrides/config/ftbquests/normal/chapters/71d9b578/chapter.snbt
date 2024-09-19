@@ -1,0 +1,12 @@
+{
+	title: "Utility mods",
+	icon: {
+		id: "thermalexpansion:satchel",
+		tag: {
+			Accessible: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

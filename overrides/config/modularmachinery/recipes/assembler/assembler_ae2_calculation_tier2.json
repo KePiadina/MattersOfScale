@@ -1,0 +1,45 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_calculation2",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:quartz",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:redstone",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "opencomputers:material@2",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@23",
+            "amount":1,
+            "chance":0
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@23",
+            "amount": 1
+        }
+    ]
+}

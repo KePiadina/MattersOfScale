@@ -1,0 +1,14 @@
+{
+	title: "What you won't find in this modpack",
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"- Exploration. (Almost) Everything you need can be obtained near spawn",
+		"- Space and/or Dimension hopping",
+		"- Magic"
+	],
+	tasks: [{
+		uid: "a1857a11",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+    "machine": "blender",
+    "registryName": "blender_cloudseed",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ice",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:clay",
+            "amount": 1
+        },
+        
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "cloud_seed",
+            "amount": 1000
+        }
+    ]
+}

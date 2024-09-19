@@ -1,0 +1,32 @@
+{
+	title: "Cooking for Blockheads & Pam's Harvestcraft",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Featuring the most overpowered block ever",
+	text: [
+		"You may have noticed there's a huge number of seeds and crops, along with various food items. To help you mass prepare food there's Cooking for Blockheads.",
+		"Each block contributes to a \"kitchen\" multiblock, similar to a storage network but for food.",
+		"",
+		"More complex foods will, of course, give more hunger and saturation. Top tier items will also give buffs.",
+		"",
+		"Unlike other modpacks, there isn't a real incentive beyond perfectionism to craft every single food item, so you could eat bread from stone age to infinity gear.",
+		"You will need to cultivate everything by the endgame, though"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "4e433143",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 1"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b95e867",
+		type: "item",
+		item: "cookingforblockheads:recipe_book 1 2"
+	}]
+}

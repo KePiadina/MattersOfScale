@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "5624b528",
+		type: "item",
+		items: [{
+			id: "powersuits:power_fist",
+			tag: {
+				MMModItem: {
+					commonValues: {},
+					cosmeticPreset: "Default"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Your first energy storage",
+	x: -0.5d,
+	y: 4.0d,
+	description: "It has to go somewhere, right?",
+	text: [
+		"Capacitors are the most basic energy buffer. Use a Engineer's Hammer and click on a side to choose whether to input or output energy with that side."
+	],
+	dependencies: [
+		"2ffef083",
+		"f4a9321a"
+	],
+	tasks: [{
+		uid: "4fc0fbc5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	}]
+}

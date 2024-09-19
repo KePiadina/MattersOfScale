@@ -1,0 +1,25 @@
+{
+	title: "Ender Alloy",
+	x: -8.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c74a86c4"
+	],
+	tasks: [{
+		uid: "4b6f453b",
+		type: "item",
+		title: "Any Ender Alloy",
+		items: [{
+			item: "enderutilities:enderpart"
+		},
+		{
+			item: "enderutilities:enderpart 1 1"
+		},
+		{
+			item: "enderutilities:enderpart 1 2"
+		}]
+	}]
+}

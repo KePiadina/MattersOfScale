@@ -1,0 +1,55 @@
+{
+    "machine": "blender",
+    "registryName": "blender_mana",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "pyrotheum",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "cryotheum",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "aerotheum",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "petrotheum",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "ender",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "glowstone",
+            "amount": 1000
+        },
+        
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "mana",
+            "amount": 1000
+        }
+    ]
+}

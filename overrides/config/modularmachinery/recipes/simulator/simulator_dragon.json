@@ -1,0 +1,45 @@
+{
+    "machine": "simulation_supercomputer",
+    "registryName": "simulator_dragon",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 32768
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "deepmoblearning:data_model_dragon",
+            "amount":1,
+            "chance":0
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount":5000
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:emerald_ore",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:dragon_breath",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:dragon_egg",
+            "amount": 8
+        }
+    ]
+}

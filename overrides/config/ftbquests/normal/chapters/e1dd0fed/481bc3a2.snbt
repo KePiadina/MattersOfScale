@@ -1,0 +1,32 @@
+{
+	title: "The Final Push",
+	x: 2.0d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"It's time to put everything you've built to the test.",
+		"",
+		"Do not be fooled: these cells are §b§lfull§r and require fluid work",
+		"",
+		"These frames will take up almost every farm in the game: mobs, metals, and plants"
+	],
+	dependencies: [
+		"ea424cb2",
+		"ea3cf68b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "4a8b9e5a",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 148"
+		}],
+		count: 8L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f3a4beb9",
+		type: "item",
+		item: "avaritia:resource 1 5"
+	}]
+}

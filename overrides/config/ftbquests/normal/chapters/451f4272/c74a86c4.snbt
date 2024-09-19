@@ -1,0 +1,33 @@
+{
+	title: "Induction Smelter",
+	x: -8.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "350acb34",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}]
+}

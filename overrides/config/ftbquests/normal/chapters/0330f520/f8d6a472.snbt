@@ -1,0 +1,26 @@
+{
+	title: "Kiln Oven",
+	x: -0.5d,
+	y: -1.0d,
+	text: [
+		"Note: 2 iron ingots, 2 Rotten flesh, and 1 Clay ball make 2 Pigiron ingots.",
+		"",
+		"You can keep the extra one as a souvenir"
+	],
+	dependencies: [
+		"20491d84"
+	],
+	tasks: [{
+		uid: "8d9fb227",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b17cd246",
+		type: "item",
+		item: "immersiveengineering:tool"
+	}]
+}

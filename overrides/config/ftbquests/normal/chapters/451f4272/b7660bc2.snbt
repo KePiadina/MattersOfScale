@@ -1,0 +1,183 @@
+{
+	title: "Trophies",
+	x: -10.5d,
+	y: 2.0d,
+	text: [
+		"Trophies may drop with a very low drop chance from most mobs. While some of them are useless, most provide a large amount of drops.",
+		"",
+		"In addition, peaceful mob trophies don't get consumed, meaning you can farm them infinitely!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "e5457d18",
+		type: "item",
+		items: [{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:blaze"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:cave_spider"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:chicken"
+			},
+			Damage: 1s
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:cow"
+			},
+			Damage: 2s
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:creeper"
+			},
+			Damage: 3s
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:enderman"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:ghast"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:guardian"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:magma_cube"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:mooshroom"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:pig"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:rabbit"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:sheep"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:shulker"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:skeleton"
+			},
+			Damage: 4s
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:slime"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:spider"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:squid"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:witch"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:wither_skeleton"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_pigman"
+			},
+			Damage: 5s
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		},
+		{
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie"
+			}
+		}]
+	},
+	{
+		uid: "6f26821d",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 10s
+		}]
+	}]
+}

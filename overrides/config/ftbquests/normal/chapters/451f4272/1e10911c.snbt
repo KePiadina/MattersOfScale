@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -6.0d,
+	dependencies: [
+		"23a055d9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "490e4997",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}],
+	rewards: [{
+		uid: "b4e1502a",
+		type: "item",
+		item: "environmentaltech:structure_frame_1",
+		count: 24
+	},
+	{
+		uid: "5e99b11b",
+		type: "item",
+		item: "environmentaltech:structure_panel",
+		count: 20
+	}]
+}

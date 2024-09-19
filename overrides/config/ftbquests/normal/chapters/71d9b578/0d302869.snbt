@@ -1,0 +1,20 @@
+{
+	title: "BiblioCraft",
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"Bibliocraft adds various office-based decoration and storage blocks"
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "a1d8a0d8",
+		type: "item",
+		items: [{
+			item: "bibliocraft:biblioclipboard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

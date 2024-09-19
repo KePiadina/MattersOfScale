@@ -1,0 +1,21 @@
+{
+	title: "Cryogenic Freezer",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"The Cryogenic Freezer can quickly solidify and freeze just about any material, including gasses."
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "ce32a947",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:vacuum_freezer"
+			}
+		}]
+	}]
+}

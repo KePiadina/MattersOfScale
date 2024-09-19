@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: -4.5d,
+	dependencies: [
+		"587fe96b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7b65d512",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_heavy_sieve"
+		}]
+	}]
+}

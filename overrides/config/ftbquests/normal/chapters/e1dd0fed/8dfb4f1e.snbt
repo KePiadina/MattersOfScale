@@ -1,0 +1,22 @@
+{
+	title: "Nuclear Reactor",
+	x: -5.5d,
+	y: 0.0d,
+	text: [
+		"If you don't feel like using NuclearCraft or Mekanism's reactors, this simpler version may be just for you."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "1a60ac13",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:nuclear_reactor"
+			}
+		}]
+	}]
+}

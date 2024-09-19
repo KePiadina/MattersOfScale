@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "b84b7edb",
+		type: "item",
+		items: [{
+			item: "harvestcraft:meatfeastpizzaitem"
+		}]
+	}]
+}

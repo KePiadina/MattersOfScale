@@ -1,0 +1,26 @@
+{
+    "machine": "vacuum_freezer",
+    "registryName": "freezer_ice",
+    "recipeTime": 10,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount":144
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:packed_ice",
+            "amount": 1
+        }
+    ]
+}

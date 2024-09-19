@@ -1,0 +1,37 @@
+{
+	title: "End Data Models",
+	icon: "deepmoblearning:data_model_shulker",
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"92360191"
+	],
+	optional: true,
+	tasks: [{
+		uid: "08bc36eb",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_shulker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "487fe6b9",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_enderman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65771eb7",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 1024
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "How to read",
+	x: -6.5d,
+	y: -7.0d,
+	text: [
+		"This page is dedicated to showing the tiers for materials. The most commonly batch-crafted blocks will have upgraded version, which cost higher tier materials but give more output.",
+		"",
+		"Note that you should still keep lower tier materials stockpiled as not all recipes can be crafted with higher tier items."
+	],
+	tasks: [{
+		uid: "70f1b699",
+		type: "checkmark"
+	}]
+}

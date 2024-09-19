@@ -1,0 +1,15 @@
+{
+	title: "Vanilla",
+	x: -4.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "91263bc7",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Dye Mixer",
+	x: -6.0d,
+	y: -7.0d,
+	text: [
+		"Not necessary by any means, but if you want to avoid having to make a garden for dyes, this is the machine for you."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "5ee0d906",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:dye_mixer"
+			}
+		}]
+	}]
+}

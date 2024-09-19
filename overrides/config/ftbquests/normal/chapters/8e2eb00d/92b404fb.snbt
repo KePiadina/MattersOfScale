@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "d8560fcc",
+		type: "item",
+		items: [{
+			item: "opencomputers:case3"
+		}]
+	}]
+}

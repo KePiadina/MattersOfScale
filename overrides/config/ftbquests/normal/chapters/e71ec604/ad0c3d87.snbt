@@ -1,0 +1,20 @@
+{
+	title: "Tiers",
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"This modpack features machine tiers. This means that, as you progress and unlock better materials, you will be able to upgrade your machines to be better, faster, or be able to run more recipes at once.",
+		"",
+		"While better, they will also consume more energy, so only make the upgrade if you can, there's no shame in keeping lower tiers."
+	],
+	dependencies: [
+		"8e48ce0d"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "03ab954e",
+		type: "checkmark",
+		title: "Tiers",
+		icon: "minecraft:furnace"
+	}]
+}

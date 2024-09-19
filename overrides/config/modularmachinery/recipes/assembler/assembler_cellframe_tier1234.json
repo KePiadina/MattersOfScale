@@ -1,0 +1,189 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_cell1234",
+    "recipeTime": 20,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2048  
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateVoid",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateBasic",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickSilver",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickTin",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickInvar",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickSteel",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickNickel",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateElectrum",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickConstantan",
+            "amount":6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickLumium",
+            "amount":6
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustPyrotheum",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotEnergeticAlloy",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateSignalum",
+            "amount":12
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateElectrum",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:gearCosmicNeutronium",
+            "amount":8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:fertilizer@2",
+            "amount":12
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotRedAlloy",
+            "amount":8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "thermalfoundation:bait@2",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateCrystalMatrix",
+            "amount":12
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateCosmicNeutronium",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:stickEnderium",
+            "amount":16
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:platePalisEmpowered",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "deepmoblearning:glitch_heart",
+            "amount":8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustCryotheum",
+            "amount":12
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotEndSteel",
+            "amount":8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotCrystallineAlloy",
+            "amount":4
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "avaritia:ultimate_stew",
+            "amount":2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@34",
+            "amount": 8,
+            "chance": 1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalexpansion:frame@132",
+            "amount": 1,
+            "chance": 1
+        }
+    ]
+}

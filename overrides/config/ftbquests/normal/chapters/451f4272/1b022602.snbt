@@ -1,0 +1,37 @@
+{
+	title: "Ex Nihilo",
+	icon: "exnihilocreatio:block_sieve",
+	x: -10.5d,
+	y: -4.5d,
+	text: [
+		"Ex Nihilo (and Ex Compressum) let you create most ores from sieving down gravel, sand, and dust, which you can obtain from cobblestone using a hammer (make sure it's the correct ype of hammer).",
+		"",
+		"I recommend you start with this"
+	],
+	dependencies: [
+		"c2a0f123"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ba5f965c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d5456f5c",
+		type: "item",
+		item: "excompressum:heavy_sieve"
+	},
+	{
+		uid: "f8d8214d",
+		type: "item",
+		item: "industrialforegoing:material_stonework_factory"
+	},
+	{
+		uid: "2a5c8dec",
+		type: "item",
+		item: "randomthings:spectrecoil_number"
+	}]
+}

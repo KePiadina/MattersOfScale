@@ -1,0 +1,45 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_engineering2",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 16384
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "enderio:item_material@14",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ballRedstoneAlloy",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:plateSilicon",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@24",
+            "amount":1,
+            "chance":0
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@24",
+            "amount": 16
+        }
+    ]
+}

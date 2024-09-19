@@ -1,0 +1,32 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_itemconduit1",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotPulsatingIron",
+            "amount":1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "industrialforegoing:plastic",
+            "amount": 3
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_item_conduit",
+            "amount": 24
+        }
+    ]
+}

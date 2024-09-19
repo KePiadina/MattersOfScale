@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "a8abebed",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_creative_flight"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Industrial Mixer",
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"The Industrial Mixer can blend together items or fluids to create more advanced products."
+	],
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "aae74a23",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:blender"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	text: [
+		"Note: Ultimate tier installers don't work on machines, only on storage blocks (like tanks and bins)"
+	],
+	dependencies: [
+		"0444716f"
+	],
+	tasks: [{
+		uid: "b1ad0910",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

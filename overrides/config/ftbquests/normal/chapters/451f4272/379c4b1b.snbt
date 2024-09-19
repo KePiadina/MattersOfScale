@@ -1,0 +1,17 @@
+{
+	title: "Tier 2: Automation",
+	x: -16.5d,
+	y: -3.5d,
+	shape: "gear",
+	text: [
+		"The second tier will focus on getting materials and processing machines to start building your factory"
+	],
+	dependencies: [
+		"c18e4a09"
+	],
+	tasks: [{
+		uid: "8a22f898",
+		type: "checkmark",
+		title: "Tier 2: Automation"
+	}]
+}

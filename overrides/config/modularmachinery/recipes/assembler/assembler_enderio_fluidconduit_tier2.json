@@ -1,0 +1,38 @@
+{
+    "machine": "precision_assembler",
+    "registryName": "assembler_fluidconduit2",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:ingotVibrantAlloy",
+            "amount":3 
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "mekanism:polyethene@2",
+            "amount": 3
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_liquid_conduit@2",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "enderio:item_liquid_conduit@2",
+            "amount": 8
+        }
+    ]
+}

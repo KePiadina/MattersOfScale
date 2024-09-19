@@ -1,0 +1,17 @@
+{
+	title: "Neutron Fluid",
+	x: -2.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"33de6835"
+	],
+	tasks: [{
+		uid: "97248229",
+		type: "fluid",
+		fluid: "neutron",
+		amount: 144
+	}]
+}

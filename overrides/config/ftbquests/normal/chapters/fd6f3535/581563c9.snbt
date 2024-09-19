@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	text: [
+		"A 1x1 Drawer with 7 emerald upgrades can store up to 7168 stacks, or 458752 items"
+	],
+	tasks: [{
+		uid: "20597936",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}]
+}

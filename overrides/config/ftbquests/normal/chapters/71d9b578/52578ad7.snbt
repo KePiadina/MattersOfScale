@@ -1,0 +1,23 @@
+{
+	title: "The cooler door",
+	x: 3.0d,
+	y: 2.5d,
+	text: [
+		"Drawbridges can act as extended pistons, placing multiple blocks in a line with redstone signal.",
+		"",
+		"They can also build more complex disappearing machines with the advanced version"
+	],
+	dependencies: [
+		"703c7432"
+	],
+	tasks: [{
+		uid: "eb927804",
+		type: "item",
+		items: [{
+			item: "enderutilities:draw_bridge"
+		},
+		{
+			item: "enderutilities:draw_bridge 1 1"
+		}]
+	}]
+}

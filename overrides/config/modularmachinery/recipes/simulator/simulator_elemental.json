@@ -1,0 +1,69 @@
+{
+    "machine": "simulation_supercomputer",
+    "registryName": "simulator_elemental",
+    "recipeTime": 160,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 32768
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "deepmoblearning:data_model_thermal_elemental",
+            "amount":1,
+            "chance":0
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "experience",
+            "amount":5000
+        },
+
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:quartz_ore",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@772",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@770",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:snowball",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2050",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2052",
+            "amount": 64
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@2048",
+            "amount": 64
+        }
+    ]
+}

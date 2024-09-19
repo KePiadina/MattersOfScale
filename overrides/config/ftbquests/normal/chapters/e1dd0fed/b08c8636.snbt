@@ -1,0 +1,22 @@
+{
+	title: "Auto Sieve",
+	x: -5.0d,
+	y: -6.0d,
+	text: [
+		"The Auto Sieve is the final ore generating machine of the Ex Nihilo path, condensing all sieves into one."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"49dfc76b"
+	],
+	tasks: [{
+		uid: "75464190",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:large_sieve"
+			}
+		}]
+	}]
+}

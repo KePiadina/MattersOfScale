@@ -1,0 +1,17 @@
+{
+	title: "Multiblocks",
+	x: -9.0d,
+	y: -4.0d,
+	text: [
+		"This tier features a large amount of multiblocks.",
+		"",
+		"These allow for massive throughput at high energy costs, which can be produced by other multiblocks such as the Biomass Burner and Nuclear Reactor.",
+		"",
+		"I'm sorry if you expected to see aestethically pleasing multiblocks."
+	],
+	tasks: [{
+		uid: "eec25d2a",
+		type: "checkmark",
+		title: "Multiblocks"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+    "machine": "nuclear_reactor",
+    "registryName": "nuclear_singularity",
+    "recipeTime": 80000000,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 50000000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extendedcrafting:singularity@32",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:skull 1 2",
+	x: 1.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "4c1c4725",
+		type: "checkmark",
+		title: "Set difficulty to Normal"
+	}],
+	rewards: [{
+		uid: "f75af7a7",
+		type: "command",
+		command: "/difficulty normal",
+		player_command: true
+	}]
+}

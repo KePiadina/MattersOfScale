@@ -1,0 +1,15 @@
+{
+	x: -10.5d,
+	y: 0.0d,
+	dependencies: [
+		"624ab870"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3dac172e",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 3"
+		}]
+	}]
+}

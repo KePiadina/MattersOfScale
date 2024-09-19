@@ -1,0 +1,18 @@
+{
+	title: "Moving that energy",
+	x: -1.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2d1b09ba"
+	],
+	tasks: [{
+		uid: "996740b2",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0"
+		}]
+	}]
+}

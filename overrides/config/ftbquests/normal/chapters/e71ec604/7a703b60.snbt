@@ -1,0 +1,17 @@
+{
+	title: "Alternate recipes",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"A lot of commonly-used recipes also have alternate versions, which may sacrifice quantity for convenience or viceversa.",
+		"",
+		"Enjoy not having to go exploring for some rare flower just to make colored lenses."
+	],
+	dependencies: [
+		"8e48ce0d"
+	],
+	tasks: [{
+		uid: "f28caaf0",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -12.0d,
+	text: [
+		"An Extended Handy Chest can store up to 425984 items per 12B card, in stacks of 4096 items each"
+	],
+	dependencies: [
+		"dd69c153"
+	],
+	tasks: [{
+		uid: "3baee6e1",
+		type: "item",
+		items: [{
+			item: "enderutilities:storage_0 1 6"
+		}]
+	}]
+}

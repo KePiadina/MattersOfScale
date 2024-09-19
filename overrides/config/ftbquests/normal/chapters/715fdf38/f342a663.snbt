@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	text: [
+		"In case you haven't done that yet, now it would be the time to."
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "70d6e9fb",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "1c059f3a",
+		type: "item",
+		item: "dimensionaledibles:end_cake"
+	}]
+}

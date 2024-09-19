@@ -1,0 +1,4275 @@
+{
+    "registryname": "nuclear_reactor",
+    "localizedname": "Nuclear Reactor",
+    "color": "3B3C4A", 
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "nbt": {"electricityStored":"0.0d","facing":"2","Items":[],"id":"mekanismgenerators:reactor_glass","redstone":"0b"},
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:coal_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all",
+                "immersiveengineering:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_cryotheum@0"
+            ]
+        }
+    ]}

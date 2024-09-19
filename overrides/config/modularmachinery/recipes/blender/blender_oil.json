@@ -1,0 +1,55 @@
+{
+    "machine": "blender",
+    "registryName": "blender_oil",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refinedcanolaoil",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "resin",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "sap",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "refined_biofuel",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "seed_oil",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "tree_oil",
+            "amount": 1000
+        },
+        
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "empoweredoil",
+            "amount": 1000
+        }
+    ]
+}

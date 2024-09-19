@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"2cbca24d"
+	],
+	tasks: [{
+		uid: "5822f5c2",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass"
+		}]
+	}]
+}

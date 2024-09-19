@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	description: "Useless step to make the modpack longer",
+	text: [
+		"It really is."
+	],
+	dependencies: [
+		"46cb6bf2"
+	],
+	tasks: [{
+		uid: "6392a4f0",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 9"
+		}],
+		ignore_nbt: 1b
+	}]
+}

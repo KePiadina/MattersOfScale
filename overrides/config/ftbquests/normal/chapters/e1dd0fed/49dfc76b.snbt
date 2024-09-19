@@ -1,0 +1,19 @@
+{
+	title: "Tier 4: Mass processing",
+	icon: "modularmachinery:blockcontroller",
+	disable_toast: true,
+	x: -9.0d,
+	y: -3.0d,
+	shape: "gear",
+	text: [
+		"The last tier focuses on building massive machines that can quickly produce large amounts of output."
+	],
+	dependencies: [
+		"a7c374fc"
+	],
+	tasks: [{
+		uid: "bd9ce31e",
+		type: "checkmark",
+		title: "Tier 4: Mass processing"
+	}]
+}

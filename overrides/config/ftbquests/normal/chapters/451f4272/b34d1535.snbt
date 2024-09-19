@@ -1,0 +1,19 @@
+{
+	x: -13.5d,
+	y: -7.0d,
+	description: "Why tho",
+	text: [
+		"Magic Beans have been reworked to also have a chance to drop most ingots, both ores and alloys."
+	],
+	dependencies: [
+		"c2a0f123"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2112d79a",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sprout_seed"
+		}]
+	}]
+}

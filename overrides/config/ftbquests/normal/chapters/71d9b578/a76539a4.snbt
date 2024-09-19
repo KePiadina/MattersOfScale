@@ -1,0 +1,24 @@
+{
+	title: "Random Things",
+	x: -5.0d,
+	y: -3.5d,
+	description: "Time in a bottle my beloved",
+	text: [
+		"Random Things adds a lot of questionably-useful items, and the Time in a Bottle, one of the best items to have in your inventory at all times."
+	],
+	dependencies: [
+		"0229b7c9"
+	],
+	tasks: [{
+		uid: "2b472ac9",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

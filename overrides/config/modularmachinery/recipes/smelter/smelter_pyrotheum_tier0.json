@@ -1,0 +1,32 @@
+{
+    "machine": "pyric_smelter",
+    "registryName": "smelter_pyrotheum0",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "lava",
+            "amount": 4000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:dustSulfur",
+            "amount": 8
+        },
+
+
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "pyrotheum",
+            "amount": 1000
+        }
+    ]
+}

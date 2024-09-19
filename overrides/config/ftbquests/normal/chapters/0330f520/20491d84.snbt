@@ -1,0 +1,76 @@
+{
+	title: "Big Soup",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"The Smeltery will be your first real machine. It can melt ores using lava and pour them into casts",
+		"",
+		"Note that most alloys have been disabled, meaning you'll have to use the Alloy Kiln or more complex machines to create them."
+	],
+	dependencies: [
+		"6fede907"
+	],
+	tasks: [{
+		uid: "04278d67",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "f6d1e331",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}]
+	},
+	{
+		uid: "5d76fb91",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		},
+		{
+			item: "tconstruct:seared_tank 1 1"
+		},
+		{
+			item: "tconstruct:seared_tank 1 2"
+		}]
+	},
+	{
+		uid: "3ff578e3",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "443ad0f1",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "838811dc",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		},
+		{
+			item: "tconstruct:casting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4980d280",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s
+		},
+		count: 4
+	}]
+}

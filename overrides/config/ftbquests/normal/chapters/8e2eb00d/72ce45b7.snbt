@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a3ceffb3"
+	],
+	tasks: [{
+		uid: "c233338b",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativeenergy"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Ore Generation",
+	x: -12.5d,
+	y: -4.5d,
+	text: [
+		"As you've gotten past the manual mining part, it is time for you to choose what method you will use for ore generation.",
+		"",
+		"Just like energy and processing, ore gen can and will get upgrades over the course of your playthrough."
+	],
+	dependencies: [
+		"379c4b1b"
+	],
+	tasks: [{
+		uid: "fbdccb68",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "7086645e",
+		type: "item",
+		item: "thermalfoundation:geode"
+	}]
+}
