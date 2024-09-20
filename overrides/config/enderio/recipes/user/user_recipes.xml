@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
-<recipe name="Alloy: Redstone Alloy" disabled="true" />
 <recipe name="Alloy: End Steel" disabled="true" />
 <recipe name="Alloy: End Steel 2">
 	<alloying energy="10000" exp="0.5">
@@ -10,6 +9,7 @@
 		<output name="ingotEndSteel"/>
 	</alloying>
 </recipe>
+<recipe name="Alloy: Redstone Alloy" disabled="true" />
 <recipe name="Alloy: Redstone Alloy 2">
 	<alloying energy="10000" exp="0.5">
 		<input name="itemCompressedRedstone"/>
