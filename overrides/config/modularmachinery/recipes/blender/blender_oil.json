@@ -29,12 +29,6 @@
         {
             "type": "modularmachinery:fluid",
             "io-type": "input",
-            "fluid": "refined_biofuel",
-            "amount": 1000
-        },
-        {
-            "type": "modularmachinery:fluid",
-            "io-type": "input",
             "fluid": "seed_oil",
             "amount": 1000
         },
