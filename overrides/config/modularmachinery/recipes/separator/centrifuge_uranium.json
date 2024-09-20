@@ -1,0 +1,40 @@
+                {
+    "machine": "centrifuge",
+    "registryName": "centrifuge_uranium",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20480
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:crystalUranium",
+            "amount":1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardUranium",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardUranium",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardThorium",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}

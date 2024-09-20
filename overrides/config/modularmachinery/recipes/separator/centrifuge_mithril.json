@@ -1,0 +1,82 @@
+                {
+    "machine": "centrifuge",
+    "registryName": "centrifuge_mithril",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20480
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:crystalMithril",
+            "amount":1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardMithril",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardMithril",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardMithril",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardIridium",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:dustMana",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:dustPyrotheum",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:dustAerotheum",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:dustCryotheum",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:dustPetrotheum",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}

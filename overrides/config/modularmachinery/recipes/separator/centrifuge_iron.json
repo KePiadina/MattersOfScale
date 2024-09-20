@@ -1,0 +1,48 @@
+                {
+    "machine": "centrifuge",
+    "registryName": "centrifuge_iron",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20480
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:crystalIron",
+            "amount":1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardIron",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardIron",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardNickel",
+            "amount": 1,
+            "chance": 0.25
+        }
+        ,
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardGold",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}

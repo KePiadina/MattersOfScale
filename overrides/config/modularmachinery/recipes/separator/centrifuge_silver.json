@@ -1,0 +1,40 @@
+                {
+    "machine": "centrifuge",
+    "registryName": "centrifuge_silver",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20480
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:crystalSilver",
+            "amount":1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardSilver",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardSilver",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardGold",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}

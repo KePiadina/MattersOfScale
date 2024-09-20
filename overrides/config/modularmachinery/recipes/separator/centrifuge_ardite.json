@@ -1,0 +1,40 @@
+                {
+    "machine": "centrifuge",
+    "registryName": "centrifuge_ardite",
+    "recipeTime": 5,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 20480
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "ore:crystalArdite",
+            "amount":1
+        },
+
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardArdite",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardArdite",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "ore:shardCobalt",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}
