@@ -16,3 +16,6 @@
 <ore:oreLead>.add(<exnihilocreatio:item_ore_lead:1>);
 <ore:oreNickel>.add(<exnihilocreatio:item_ore_nickel:1>);
 <ore:oreSilver>.add(<exnihilocreatio:item_ore_silver:1>);*/
+
+//Fixing EnderIO sometimes registering recipes anyways. EnderIO Recipes are in config/enderio
+mods.enderio.AlloySmelter.removeRecipe(<enderio:item_alloy_ingot:8>);

@@ -5,27 +5,38 @@
  * Redstone -> Restonia Crystal -> Compressed Redstone -> Redstone Alloy Ingot
 */
 
-//Removed Laminar Fluiducts for balance
+//Changed Laminar Fluiducts to require Mekanism pipes for balance
 mods.jei.JEI.removeAndHide(<thermaldynamics:duct_16:7>);   
 mods.jei.JEI.removeAndHide(<thermaldynamics:duct_16:6>);
+recipes.addShaped(<thermaldynamics:duct_16:7>, [[<mekanism:transmitter:1>.withTag({tier: 3}),<mekanism:transmitter:1>.withTag({tier: 3}),<mekanism:transmitter:1>.withTag({tier: 3})],
+                                                [<mekanism:transmitter:1>.withTag({tier: 3}),<mekanismgenerators:reactorglass>,<mekanism:transmitter:1>.withTag({tier: 3})],
+                                                [<mekanism:transmitter:1>.withTag({tier: 3}),<mekanism:transmitter:1>.withTag({tier: 3}),<mekanism:transmitter:1>.withTag({tier: 3})]]);
+
+recipes.addShapeless(<thermaldynamics:duct_16:6>, [<thermaldynamics:duct_16:6>]);
+recipes.addShapeless(<thermaldynamics:duct_16:7>, [<thermaldynamics:duct_16:7>]);
+
+//Removed Empowerer in favor of Multiblock version
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_empowerer>);
+
 //Removed old Redstone Alloy recipe - see also config/enderio/recipes
 mods.enderio.AlloySmelter.removeRecipe(<enderio:item_alloy_ingot:3>);
-//Removed Empowerer for multiblock version
-//recipes.removeShaped(<actuallyadditions:block_empowerer>, [[null, <actuallyadditions:item_crystal>, null], [null, <actuallyadditions:item_battery_double:*>, null], [<actuallyadditions:block_misc:9>, <actuallyadditions:block_display_stand>, <actuallyadditions:block_misc:9>]]);
-
+//Removed old End Steel recipe - see also config/enderio/recipes
+mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput([<enderio:item_alloy_ingot:8>]);
 //Removed old compressed Redstone recipe
 mods.mekanism.enrichment.removeRecipe(<minecraft:redstone>, <mekanism:compressedredstone>);
-//Removed old End Steel recipe - see also config/enderio/recipes
 
-//  mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput([<enderio:item_alloy_ingot:8>]);
-//Added HDPE to recipe to move it up
+// Restonia Crystal bonus recipe
+mods.thermalexpansion.Infuser.addRecipe(<actuallyadditions:item_crystal>, <minecraft:redstone>, 4000);
+// Compressed Redstone
+mods.mekanism.enrichment.addRecipe(<actuallyadditions:item_crystal>, <mekanism:compressedredstone>);
+
+
+//Added HDPE to Reactor Glass to move it up
 recipes.removeShaped(<mekanismgenerators:reactorglass> * 4, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <ore:blockGlass>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
-
-// Reactor Glass
 recipes.addShaped(<mekanismgenerators:reactorglass> * 4, [[null, <mekanismgenerators:reactor:1>, null], [<mekanismgenerators:reactor:1>, <mekanism:basicblock:10>, <mekanismgenerators:reactor:1>], [null, <mekanismgenerators:reactor:1>, null]]);
+
 //End Steel Ingot
-mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:8>, [<ore:endstone>, <ore:ingotDarkSteel>, <ore:ingotRefinedObsidian>]);
+//mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:8>, [<ore:endstone>, <ore:ingotDarkSteel>, <ore:ingotRefinedObsidian>]);
 
 //Piston (Vanilla)
 recipes.addShaped(<minecraft:piston> * 2, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:compressed1xCobblestone>, <ore:ingotSteel>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <actuallyadditions:item_crystal>, <ore:compressed1xCobblestone>]]);
@@ -39,6 +50,7 @@ recipes.addShaped(<thermalfoundation:material:512> * 4, [[null, <ore:itemCompres
 
 //Redstone Torch
 recipes.addShaped(<minecraft:redstone_torch> * 16, [[<ore:itemCompressedRedstone>], [<ore:logWood>]]);
+recipes.addShaped(<minecraft:redstone_torch> * 64, [[<ore:ingotRedstoneAlloy>], [<ore:logWood>]]);
 
 //Glass pane
 recipes.addShaped(<minecraft:glass_pane> * 64, [[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>], [<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>]]);
@@ -58,10 +70,12 @@ recipes.addShaped(<minecraft:hopper> * 12, [[<ore:ingotStellarAlloy>, <ore:logWo
 //Machine frame
 recipes.addShaped(<thermalexpansion:frame> * 2, [[<ore:ingotDarkSteel>, <ore:fusedQuartz>, <ore:ingotDarkSteel>], [<ore:fusedQuartz>, <thermalexpansion:frame:64>, <ore:fusedQuartz>], [<ore:ingotDarkSteel>, <ore:fusedQuartz>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<thermalexpansion:frame> * 4, [[<ore:ingotEndSteel>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:ingotEndSteel>], [<thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <thermalexpansion:frame:64>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>], [<ore:ingotEndSteel>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:ingotEndSteel>]]);
+recipes.addShaped(<thermalexpansion:frame> * 16, [[<ore:ingotStellarAlloy>, <mekanism:basicblock:10>, <ore:ingotStellarAlloy>], [<mekanism:basicblock:10>, null, <mekanism:basicblock:10>], [<ore:ingotStellarAlloy>, <mekanism:basicblock:10>, <ore:ingotStellarAlloy>]]);
 
 //Device frame (Thermal)
 recipes.addShaped(<thermalexpansion:frame:64> * 2, [[<actuallyadditions:item_crystal>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <actuallyadditions:item_crystal>], [<ore:fusedQuartz>, <ore:gearInvar>, <ore:fusedQuartz>], [<actuallyadditions:item_crystal>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <actuallyadditions:item_crystal>]]);
 recipes.addShaped(<thermalexpansion:frame:64> * 4, [[<actuallyadditions:item_crystal>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <actuallyadditions:item_crystal>], [<thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:gearInvar>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>], [<actuallyadditions:item_crystal>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <actuallyadditions:item_crystal>]]);
+recipes.addShaped(<thermalexpansion:frame:64> * 16, [[<ore:ingotRedstoneAlloy>, <mekanism:basicblock:10>, <ore:ingotRedstoneAlloy>], [<mekanism:basicblock:10>, null, <mekanism:basicblock:10>], [<ore:ingotRedstoneAlloy>, <mekanism:basicblock:10>, <ore:ingotRedstoneAlloy>]]);
 
 //Fluid tank (EnderIO)
 recipes.addShaped(<enderio:block_tank> * 2, [[<ore:ingotSteel>, <ore:barsIron>, <ore:ingotSteel>], [<ore:barsIron>, <ore:fusedQuartz>, <ore:barsIron>], [<ore:ingotSteel>, <ore:barsIron>, <ore:ingotSteel>]]);
@@ -73,6 +87,12 @@ recipes.addShaped(<nuclearcraft:cell_block> * 3, [[<ore:ingotTough>, <thermalfou
 //Trans. Reactor Casing
 recipes.addShaped(<nuclearcraft:reactor_casing_transparent> * 6, [[<ore:fusedQuartz>, <ore:plateBasic>, <ore:fusedQuartz>], [<ore:plateBasic>, <ore:ingotTough>, <ore:plateBasic>], [<ore:fusedQuartz>, <ore:plateBasic>, <ore:fusedQuartz>]]);
 recipes.addShaped(<nuclearcraft:reactor_casing_transparent> * 8, [[<thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:plateBasic>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>], [<ore:plateBasic>, <ore:ingotTough>, <ore:plateBasic>], [<thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:plateBasic>, <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>]]);
+
+//Cis. Reactor Casing
+recipes.removeShaped(<nuclearcraft:fission_block>);
+recipes.addShaped(<nuclearcraft:fission_block> * 8, [[null, <ore:plateAdvanced>, null], [<ore:plateAdvanced>, <ore:ingotTough>, <ore:plateAdvanced>], [null, <ore:plateAdvanced>, null]]);
+recipes.addShaped(<nuclearcraft:fission_block> * 32, [[null, <ore:plateDU>, null], [<ore:plateDU>, <ore:ingotTough>, <ore:plateDU>], [null, <ore:plateDU>, null]]);
+recipes.addShapeless(<nuclearcraft:fission_block>, [<nuclearcraft:reactor_casing_transparent:*>]);
 
 //Portable tank
 recipes.addShaped(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 1 as byte}), [[null, <ore:fusedQuartz>, null], [<ore:fusedQuartz>, <ore:ingotInvar>, <ore:fusedQuartz>], [null, <thermalfoundation:material:512>, null]]);
@@ -88,12 +108,14 @@ recipes.addShaped(<thermaldynamics:duct_0:9> * 4, [[<ore:ingotEnderium>, <mekani
 recipes.addShaped(<mekanism:basicblock:8>, [[<ore:ingotSteel>, <thermalfoundation:material:864>, <ore:ingotSteel>], [<ore:blockGlassHardened>, <thermalfoundation:geode>, <ore:blockGlassHardened>], [<ore:ingotSteel>, <nuclearcraft:part:10>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:basicblock:8> * 2, [[<ore:ingotDarkSteel>, <thermalfoundation:material:864>, <ore:ingotDarkSteel>], [<mekanism:basicblock:10>, <thermalfoundation:geode>, <mekanism:basicblock:10>], [<ore:ingotDarkSteel>, <nuclearcraft:part:10>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<mekanism:basicblock:8> * 4, [[<ore:ingotMelodicAlloy>, <thermalfoundation:material:864>, <ore:ingotMelodicAlloy>], [<mekanismgenerators:reactorglass>, <thermalfoundation:geode>, <mekanismgenerators:reactorglass>], [<ore:ingotMelodicAlloy>, <nuclearcraft:part:10>, <ore:ingotMelodicAlloy>]]);
+mods.mekanism.infuser.addRecipe("REDSTONE", 320, <ore:blockDarkSteel>, <mekanism:basicblock:8> * 1);
+mods.mekanism.infuser.addRecipe("REDSTONE", 320, <ore:blockMelodicAlloy>, <mekanism:basicblock:8> * 4);
 
 //Thermoelectric generator (IE)
 recipes.addShaped(<immersiveengineering:metal_device1:3>, [[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 recipes.addShaped(<immersiveengineering:metal_device1:3> * 2, [[<ore:ingotEndSteel>, <ore:ingotEndSteel>, <ore:ingotEndSteel>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 recipes.addShaped(<immersiveengineering:metal_device1:3> * 3, [[<ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
-recipes.addShaped(<immersiveengineering:metal_device1:3> * 6, [[<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
+recipes.addShaped(<immersiveengineering:metal_device1:3> * 12, [[<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>], [<ore:plateConstantan>, <immersiveengineering:metal_decoration0>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 
 //Steel Scaffolding (IE)
 recipes.addShaped(<immersiveengineering:metal_decoration1:1> * 6, [[<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:ingotDarkSteel>], [null, <ore:stickSteel>, null], [<ore:stickSteel>, null, <ore:stickSteel>]]);
@@ -138,6 +160,12 @@ recipes.addShaped(<mekanism:basicblock2> * 12, [[null, <ore:ingotMelodicAlloy>, 
 recipes.addShaped(<mekanism:basicblock2> * 16, [[null, <ore:ingotStellarAlloy>, null], [<ore:ingotStellarAlloy>, <ore:ingotCopper>, <ore:ingotStellarAlloy>], [null, <ore:ingotStellarAlloy>, null]]);
 
 //Mekanism Ultimate tubes
+recipes.addShaped(<mekanism:transmitter:0>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockRedstone>, <ore:ingotDarkSteel>], [null, null, null]]); //Energy
+recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <minecraft:bucket>, <ore:ingotDarkSteel>], [null, null, null]]); //Fluid
+recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockGlassHardened>, <ore:ingotDarkSteel>], [null, null, null]]); //Gas
+recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:circuitUltimate>, <ore:ingotDarkSteel>], [null, null, null]]); //Item
+recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockCopper>, <ore:ingotDarkSteel>], [null, null, null]]); //Heat
+
 recipes.addShaped(<mekanism:transmitter:0>.withTag({tier: 3}) * 12, [[null, <ore:circuitUltimate>, null], [<ore:ingotEndSteel>, <ore:blockRedstone>, <ore:ingotEndSteel>], [null, null, null]]); //Energy
 recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 3}) * 12, [[null, <ore:circuitUltimate>, null], [<ore:ingotEndSteel>, <minecraft:bucket>, <ore:ingotEndSteel>], [null, null, null]]); //Fluid
 recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 3}) * 12, [[null, <ore:circuitUltimate>, null], [<ore:ingotEndSteel>, <ore:blockGlassHardened>, <ore:ingotEndSteel>], [null, null, null]]); //Gas
@@ -157,7 +185,7 @@ recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 3}) * 24, [[null, <ore
 recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 3}) * 24, [[null, <ore:circuitUltimate>, null], [<ore:ingotStellarAlloy>, <ore:blockCopper>, <ore:ingotStellarAlloy>], [null, null, null]]); //Heat
 
 
-
+//EnderIO conduits
 recipes.addShaped(<enderio:item_liquid_conduit:2> * 24, [[<industrialforegoing:plastic>,<industrialforegoing:plastic>,<industrialforegoing:plastic>], [<ore:ingotVibrantAlloy>, <ore:fusedQuartz> | <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:ingotVibrantAlloy>], [<industrialforegoing:plastic>,<industrialforegoing:plastic>,<industrialforegoing:plastic>]]);
 recipes.addShaped(<enderio:item_liquid_conduit:2> * 48, [[<mekanism:polyethene:2>,<mekanism:polyethene:2>,<mekanism:polyethene:2>], [<ore:ingotVibrantAlloy>, <ore:fusedQuartz> | <thermalfoundation:glass:*> | <thermalfoundation:glass_alloy:*>, <ore:ingotVibrantAlloy>], [<mekanism:polyethene:2>,<mekanism:polyethene:2>,<mekanism:polyethene:2>]]);
 
@@ -172,3 +200,4 @@ recipes.addShaped(<enderio:item_endergy_conduit:9> * 48, [[<mekanism:polyethene:
 
 recipes.addShaped(<enderio:item_endergy_conduit:10> * 24, [[<industrialforegoing:plastic>,<industrialforegoing:plastic>,<industrialforegoing:plastic>], [<ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>], [<industrialforegoing:plastic>,<industrialforegoing:plastic>,<industrialforegoing:plastic>]]);
 recipes.addShaped(<enderio:item_endergy_conduit:10> * 48, [[<mekanism:polyethene:2>,<mekanism:polyethene:2>,<mekanism:polyethene:2>], [<ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>, <ore:ingotMelodicAlloy>], [<mekanism:polyethene:2>,<mekanism:polyethene:2>,<mekanism:polyethene:2>]]);
+

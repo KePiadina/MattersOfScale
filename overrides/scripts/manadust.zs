@@ -1,3 +1,6 @@
+/*
+ * Script file related to Mana Dust aka "UU-Matter"
+ */
 import crafttweaker.item.IItemStack;
 mods.thermalexpansion.Refinery.addRecipe(<liquid:water> * 1, <thermalfoundation:material:1028>, <liquid:water> * 1, 100000);
 

@@ -1,20 +1,5 @@
-// Remove the Death Urn
-mods.jei.JEI.removeAndHide(<enderio:block_death_pouch>);
-mods.jei.JEI.removeAndHide(<enderio:item_material:81>);
-//Tweaked AE2 recipes to not require inscribers
-mods.appliedenergistics2.Inscriber.removeRecipe(<appliedenergistics2:material:16>); 
-mods.appliedenergistics2.Inscriber.removeRecipe(<appliedenergistics2:material:17>); 
-mods.appliedenergistics2.Inscriber.removeRecipe(<appliedenergistics2:material:18>);
-//Remove Inscribers since they're no longer required
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:19>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:15>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:14>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:13>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:inscriber>);
-mods.jei.JEI.removeAndHide(<ae2stuff:inscriber>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:21>);
-mods.jei.JEI.removeAndHide(<threng:machine:2>);
 
+//AE2 recipes don't require inscribers anymore
 recipes.addShaped(<appliedenergistics2:material:16>, [
 	[null, <ore:dustChargedCertusQuartz>, null], 
 	[null, <ore:plateRedstone>, null], 
@@ -34,19 +19,9 @@ mods.mekanism.infuser.addRecipe("REDSTONE", 40, <appliedenergistics2:material:16
 mods.mekanism.infuser.addRecipe("REDSTONE", 40, <appliedenergistics2:material:17>, <appliedenergistics2:material:24>);
 mods.mekanism.infuser.addRecipe("REDSTONE", 40, <appliedenergistics2:material:18>, <appliedenergistics2:material:22>);
 
-
-//Removed Neutron Collector, moved Neutronium to Neutron Fluid
-mods.jei.JEI.removeAndHide(<avaritia:neutron_collector>);
+//Moved Neutronium to Neutron Fluid
 mods.thermalexpansion.Transposer.addFillRecipe(<avaritia:resource:4>, <thermalfoundation:material:1025>, <liquid:neutron> * 144, 40000);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:neutron> * 144, <avaritia:resource:4>, 200, 4000]);
-
-//Metallurgic Infuser gives a better recipe for Mekanism Steel Casing
-mods.thermalexpansion.Infuser.addRecipe(<actuallyadditions:item_crystal>, <minecraft:redstone>, 4000);
-mods.mekanism.infuser.addRecipe("REDSTONE", 320, <ore:blockDarkSteel>, <mekanism:basicblock:8> * 4);
-
-//Removed IF Black Hole storage blocks in favor of quantum storage
-mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_unit>);
-mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_tank>);
 
 //Made Quantum items slightly harder to craft
 recipes.remove(<quantumstorage:quantum_storage_unit>);
@@ -58,17 +33,16 @@ recipes.addShaped(<quantumstorage:quantum_battery>, [[null, <ore:ingotStellarAll
 recipes.remove(<quantumstorage:quantum_tank>);
 recipes.addShaped(<quantumstorage:quantum_tank>, [[<ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>], [<ore:ingotStellarAlloy>, <cyclicmagic:block_storeempty>, <ore:ingotStellarAlloy>], [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]]);
 
-
-
 //Alt recipe for Refined Obsidian
 mods.thermalexpansion.InductionSmelter.addRecipe(<mekanism:ingot> * 1, <mekanism:ingot:1>, <mekanism:otherdust:5>, 6000);
 
 //Removed Enhanced Machine chassis
 mods.enderio.AlloySmelter.removeRecipe(<enderio:item_material:54>);
+
 //Removed Ex Nihilo End cake
 mods.jei.JEI.removeAndHide(<exnihilocreatio:block_end_cake>);
 
-// Moves Conduit Binder to post-Mekanism by requiring advanced alloy
+// Moved Conduit Binder to post-Mekanism by requiring advanced alloy
 recipes.remove(<enderio:item_material:22>);
 recipes.addShaped(<enderio:item_material:22> * 8, [[<ore:gravel>, <ore:itemClay>, <ore:gravel>], [<ore:sand>, <ore:itemEnrichedAlloy>, <ore:sand>], [<ore:gravel>, <ore:itemClay>, <ore:gravel>]]);
 
@@ -103,9 +77,6 @@ mods.thermalexpansion.Infuser.addRecipe(<actuallyadditions:block_crystal:3>, <mi
 mods.thermalexpansion.Infuser.addRecipe(<actuallyadditions:block_crystal:4>, <minecraft:emerald_block>, 20000);
 mods.thermalexpansion.Infuser.addRecipe(<actuallyadditions:block_crystal:5>, <minecraft:iron_block>, 20000);
 
-// Compressed Redstone
-mods.mekanism.enrichment.addRecipe(<actuallyadditions:item_crystal>, <mekanism:compressedredstone>);
-
 // Redstone Alloy alternative recipes
 mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_ingot:3>, [<ore:itemCompressedRedstone>, <ore:itemSilicon>, null]);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_alloy_ingot:3>, <mekanism:compressedredstone>, <enderio:item_material:5>, 4000, <enderio:item_alloy_ball:3>, 10);
@@ -121,7 +92,7 @@ recipes.addShaped(<enderio:item_material:67> * 4, [[<ore:itemPulsatingPowder>, <
 recipes.removeShaped(<enderio:item_material:52> * 6);
 recipes.addShaped(<enderio:item_material:52> * 6, [[<ore:dustSoularium>, <ore:dustNetherQuartz>, <ore:dyeBrown>], [<ore:dustNetherQuartz>, <ore:dyeBlack>, <ore:dustNetherQuartz>], [<ore:dyeBrown>, <ore:dustNetherQuartz>, <ore:dustSoularium>]]);
 
-//Removed Pink Slime from Stonework factory to not incentivize mob farms
+//Removed Pink Slime req from Stonework factory to not incentivize mob farms
 recipes.removeShaped(<industrialforegoing:material_stonework_factory>, [[<industrialforegoing:plastic>, <minecraft:crafting_table>, <industrialforegoing:plastic>], [<minecraft:iron_pickaxe>, <mekanism:basicblock:8>, <minecraft:furnace>], [<minecraft:lava_bucket>, <industrialforegoing:pink_slime>, <minecraft:water_bucket>]]);
 recipes.addShaped(<industrialforegoing:material_stonework_factory>, [[<industrialforegoing:plastic>, <minecraft:crafting_table>, <industrialforegoing:plastic>], [<minecraft:iron_pickaxe>, <mekanism:basicblock:8>, <minecraft:furnace>], [<minecraft:lava_bucket>, <ore:slimeball>, <minecraft:water_bucket>]]);
 
@@ -154,12 +125,14 @@ mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:bone> * 64) % 100, (<min
 recipes.removeShaped(<cyclicmagic:glowing_chorus>);
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:chorus_fruit>, <cyclicmagic:glowing_chorus>, <liquid:aerotheum> * 500, 4000);
 
+//Made Angel ring require more work but no mobs
 recipes.removeShaped(<extrautils2:angelring>);
 recipes.addShaped(<extrautils2:angelring>, [
 	[<cyclicmagic:glowing_chorus>, <mekanism:armoredjetpack>, <cyclicmagic:glowing_chorus>], 
 	[<tconstruct:slime_boots:*>, <environmentaltech:modifier_creative_flight>, <tconstruct:slimesling:*>], 
 	[<cyclicmagic:glowing_chorus>, <mekanism:freerunners>, <cyclicmagic:glowing_chorus>]
 ]);
+
 //Buffed Free Runners movement speed
 recipes.removeShaped(<mekanism:freerunners>);
 recipes.addShaped(<mekanism:freerunners>.withTag({AttributeModifiers: [{Amount: 3, Slot: "feet", AttributeName: "generic.movementSpeed", Operation: 2, Name: "generic.movementSpeed"}]}), [[<ore:circuitBasic>, null, <ore:circuitBasic>], [<mekanism:enrichedalloy>, null, <mekanism:enrichedalloy>], [<mekanism:energytablet>, null, <mekanism:energytablet>]]);
@@ -168,39 +141,35 @@ recipes.addShaped(<mekanism:freerunners>.withTag({AttributeModifiers: [{Amount: 
 recipes.remove(<actuallyadditions:block_giant_chest_large>);
 recipes.addShaped(<actuallyadditions:block_giant_chest_large>, [[<ore:alloyUltimate>, <ore:plankWood>, <ore:alloyUltimate>], [<ore:plankWood>, <actuallyadditions:block_giant_chest_medium>, <ore:plankWood>], [<ore:alloyUltimate>, <ore:plankWood>, <ore:alloyUltimate>]]);
 
-//Removed Avaritia & Extended Crafting gear
-mods.jei.JEI.removeAndHide(<avaritia:infinity_sword>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_boots>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_sword>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_bow>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_pickaxe>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_shovel>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_axe>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_hoe>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_helmet>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_chestplate>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_pants>);
-mods.jei.JEI.removeAndHide(<avaritia:infinity_boots>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:ender_crafter>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:ender_alternator>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:32>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:33>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:36>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:37>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:40>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:trimmed:5>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:1>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:3>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:4>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:5>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:6>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:storage:7>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:pedestal>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:crafting_core>);
-mods.jei.JEI.removeAndHide(<extendedcrafting:material:41>);
-mods.jei.JEI.removeAndHide(<avaritia:neutronium_compressor>);
+//Empowered Oil is now much more expensive, makes sense to buff it
+mods.actuallyadditions.OilGen.removeRecipe(<liquid:empoweredoil>);
+mods.actuallyadditions.OilGen.addRecipe(<liquid:empoweredoil>, 49999, 18000);
 
-//Removed some grinders
-mods.jei.JEI.removeAndHide(<appliedenergistics2:grindstone>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
+//Conduit binder
+mods.thermalexpansion.Compactor.addPressRecipe(<enderio:item_material:4> * 2,<enderio:item_material:22>, 4000);
+
+// https://cdn.discordapp.com/attachments/768748343555129384/1286703402570612747/image.png
+mods.thermalexpansion.Transposer.addFillRecipe(<exnihilocreatio:item_ore_iron:1>, <immersiveengineering:material:6>, <liquid:sugar> * 144, 400);
+mods.tconstruct.Casting.addTableRecipe(<exnihilocreatio:item_ore_iron:1>, <immersiveengineering:material:6>, <liquid:sugar>, 144, true, 100);
+
+// Ex Nihilo Bone Block now can be sifted for chances at mob drops
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:gunpowder> 0.05); 
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:rotten_flesh>, 0.05);
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:spider_eye>, 0.05);
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:ender_pearl>, 0.05);
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:string>, 0.05);
+mods.exnihilo.Sieve.addFlintMeshRecipe(<minecraft:bone_block>, <minecraft:bone>, 0.05);
+
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:gunpowder> 0.1); 
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:rotten_flesh>, 0.1);
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:spider_eye>, 0.1);
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:ender_pearl>, 0.1);
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:string>, 0.1);
+mods.exnihilo.Sieve.addIronMeshRecipe(<minecraft:bone_block>, <minecraft:bone>, 0.1);
+
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:gunpowder> 0.2);
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:rotten_flesh>, 0.2);
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:spider_eye>, 0.2);
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:ender_pearl>, 0.2);
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:string>, 0.2);
+mods.exnihilo.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:bone>, 0.2);

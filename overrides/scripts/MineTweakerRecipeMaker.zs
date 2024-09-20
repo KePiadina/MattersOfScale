@@ -33,7 +33,6 @@ recipes.removeShaped(<enderio:block_simple_alloy_smelter>, [[<ore:ingotIron>, <o
 recipes.removeShaped(<enderio:block_simple_alloy_smelter>, [[<ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>, <ore:ingotConstructionAlloy>], [<minecraft:furnace>, <ore:itemSimpleMachineChassi>, <minecraft:furnace>], [<ore:gearStone>, <minecraft:bucket>, <ore:gearStone>]]);
 recipes.removeShaped(<enderio:item_material>, [[<ore:barsIron>, <enderio:item_alloy_ingot:9>, <ore:barsIron>], [<ore:ingotConstructionAlloy>, <ore:dustBedrock>, <enderio:item_alloy_ingot:9>], [<ore:barsIron>, <ore:ingotConstructionAlloy>, <ore:barsIron>]]);
 recipes.removeShaped(<enderio:item_material>, [[<ore:barsIron>, <minecraft:iron_ingot>, <ore:barsIron>], [<ore:ingotIron>, <ore:dustBedrock>, <minecraft:iron_ingot>], [<ore:barsIron>, <ore:ingotIron>, <ore:barsIron>]]);
-recipes.removeShaped(<extrautils2:machine>, [[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], [<ore:materialStoneTool>, <ore:ingotIron>, <ore:materialStoneTool>], [<ore:alloyBasic>, <minecraft:furnace>, <ore:alloyBasic>]]);
 recipes.removeShaped(<deepmoblearning:simulation_chamber>, [[null, <minecraft:glass_pane>, null], [<minecraft:ender_pearl>, <deepmoblearning:machine_casing>, <minecraft:ender_pearl>], [<ore:gemLapis>, <minecraft:comparator>, <minecraft:dye:4>]]);
 recipes.removeShaped(<environmentaltech:diode>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:blockGlass>, <ore:alloyBasic>, <ore:blockGlass>], [<ore:blockGlass>, <ore:ingotIron>, <ore:blockGlass>]]);
 recipes.removeShaped(<exnihilocreatio:item_mesh:1>, [[<ore:string>, <ore:string>, <ore:string>], [<ore:string>, <ore:string>, <ore:string>], [<ore:string>, <ore:string>, <ore:string>]]);
@@ -53,8 +52,6 @@ recipes.removeShaped(<enderio:block_painter>, [[<ore:gemQuartz>, <ore:gemDiamond
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<enderio:item_item_conduit> * 24, [<enderio:item_conduit_facade>, <enderio:item_conduit_facade>, <enderio:item_alloy_ingot:5>, <enderio:item_conduit_facade>]);
 recipes.addShapeless(<enderio:item_redstone_conduit> * 2, [<enderio:item_material:4>, <projectred-transmission:wire>, <projectred-transmission:wire>, <projectred-transmission:wire>, <ore:itemConduitBinder>]);
-recipes.addShapeless(<thermalfoundation:geode>, [<ore:crystalLitherite>, <ore:crystalErodium>, <ore:crystalKyronite>, <ore:crystalPladium>, <environmentaltech:ionite_crystal>, <ore:crystalAethium>, <ore:crystalLonsdaleite>]);
-recipes.addShapeless(<thermalfoundation:geode>, [<exnihilocreatio:item_ore_ardite:1>, <ore:blockQuartz>, <exnihilocreatio:item_material:3>, <exnihilocreatio:item_ore_aluminium:1>, <ore:oreSilver>, <minecraft:ghast_tear>, <ore:gemPrismarine>, <ore:dustBedrock>]);
 recipes.addShapeless(<thermaldynamics:duct_32:1> * 6, [<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <ore:ingotLead>]);
 
 // ================================================================================

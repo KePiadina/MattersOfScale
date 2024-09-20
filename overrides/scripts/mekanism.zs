@@ -1,4 +1,3 @@
-
 recipes.removeShaped(<mekanism:machineblock2:10>, [[<ore:ingotSteel>, <mekanism:enrichedalloy>, <ore:ingotSteel>], [<ore:circuitBasic>, <mekanism:machineblock>, <ore:circuitBasic>], [<mekanism:gastank>.withTag({tier: 0}), <mekanism:basicblock:9>, <mekanism:gastank>.withTag({tier: 0})]]);
 recipes.removeShaped(<mekanism:basicblock:10> * 4, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.removeShaped(<mekanism:tierinstaller>, [[<ore:alloyBasic>, <ore:circuitBasic>, <ore:alloyBasic>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:alloyBasic>, <ore:circuitBasic>, <ore:alloyBasic>]]);
@@ -11,12 +10,6 @@ recipes.removeShaped(<mekanismgenerators:reactor:1> * 4, [[null, <mekanism:basic
 mods.mekanism.infuser.addRecipe("REDSTONE", 20, <ore:ingotElectrum>, <thermalfoundation:material:515>);
 mods.mekanism.infuser.addRecipe("REDSTONE", 20, <ore:ingotSilver>, <thermalfoundation:material:514>);
 //OutputStack[, InputStack, InfusionString]
-
-recipes.addShaped(<mekanism:transmitter:0>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockRedstone>, <ore:ingotDarkSteel>], [null, null, null]]); //Energy
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <minecraft:bucket>, <ore:ingotDarkSteel>], [null, null, null]]); //Fluid
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockGlassHardened>, <ore:ingotDarkSteel>], [null, null, null]]); //Gas
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:circuitUltimate>, <ore:ingotDarkSteel>], [null, null, null]]); //Item
-recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 3}) * 8, [[null, <ore:circuitUltimate>, null], [<ore:ingotDarkSteel>, <ore:blockCopper>, <ore:ingotDarkSteel>], [null, null, null]]); //Heat
 
 recipes.addShaped(<mekanism:basicblock:10> * 4, [[null, <ore:ingotEndSteel>, null], [<ore:ingotEndSteel>, <thermalfoundation:glass> | <thermalfoundation:glass_alloy>, <ore:ingotEndSteel>], [null, <ore:ingotEndSteel>, null]]);
 recipes.addShaped(<mekanismgenerators:reactor:1> * 4, [[<mekanism:polyethene:2>, <mekanism:basicblock:8>, <mekanism:polyethene:2>], [<mekanism:basicblock:8>, <ore:alloyUltimate>, <mekanism:basicblock:8>], [<mekanism:polyethene:2>, <mekanism:basicblock:8>, <mekanism:polyethene:2>]]);
