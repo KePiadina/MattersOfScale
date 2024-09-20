@@ -41,6 +41,14 @@ mods.tconstruct.Alloy.removeRecipe(<liquid:signalum>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:enderium>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>);
 mods.tconstruct.Alloy.removeRecipe(<liquid:lumium>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:manyullyn>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:bronze>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:alubrass>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:hard_carbon>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:conductive_iron>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:energetic_silver>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:vivid_alloy>);
+mods.tconstruct.Alloy.removeRecipe(<liquid:electrumflux>);
 
 //Grinders
 mods.jei.JEI.removeAndHide(<appliedenergistics2:grindstone>);
