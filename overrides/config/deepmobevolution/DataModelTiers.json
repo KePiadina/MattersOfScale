@@ -4,8 +4,9 @@
     "displayName": "Faulty",
     "displayColor": "dark_gray",
     "killMultiplier": 1,
-    "dataToNext": 1,
-    "canSimulate": false,
+    "dataToNext": 64,
+    "canSimulate": true,
+    "pristineChance": 0,
     "trial": {
       "pristine": 2,
       "maxWave": 1,

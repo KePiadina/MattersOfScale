@@ -213,7 +213,7 @@
     "livingMatter": "extraterrestrial",
     "simulationRFCost": 256,
     "craftingIngredients": [
-      "minecraft:shulker_shell",
+      "minecraft:diamond",
       "deepmoblearning:living_matter_hellish"
     ],
     "associatedMobs": [
@@ -283,7 +283,7 @@
     "livingMatter": "overworldian",
     "simulationRFCost": 256,
     "craftingIngredients": [
-      "minecraft:slime_ball"
+      "minecraft:slimeball"
     ],
     "associatedMobs": [
       "minecraft:slime",
@@ -432,7 +432,7 @@
     "livingMatter": "hellish",
     "simulationRFCost": 256,
     "craftingIngredients": [
-      "minecraft:skull,1,1",
+      "minecraft:coal",
       "deepmoblearning:living_matter_overworldian"
     ],
     "associatedMobs": [
