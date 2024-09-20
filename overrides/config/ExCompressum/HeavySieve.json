@@ -20,53 +20,60 @@
     "__comment": "You can define additional blocks to sift in the Heavy Sieve here. Use * as a wildcard for metadata. Ure ore: prefix in name to query the Ore Dictionary. Mesh Level is only used for Adscensio.",
     "entries": [
       {
-        "name": "",
+        "name": "minecraft:bone_block",
         "metadata": "*",
         "type": "list",
         "rewards": [
           {
-            "name": "",
+            "name": "minecraft:gunpowder",
             "metadata": 0,
             "count": 1,
-            "rolls": 1,
-            "chance": 1.0,
-            "meshLevel": 1
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
+          },
+          {
+            "name": "minecraft:rotten_flesh",
+            "metadata": 0,
+            "count": 1,
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
+          },
+          {
+            "name": "minecraft:spider_eye",
+            "metadata": 0,
+            "count": 1,
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
+          },
+          {
+            "name": "minecraft:string",
+            "metadata": 0,
+            "count": 1,
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
+          },
+          {
+            "name": "minecraft:ender_pearl",
+            "metadata": 0,
+            "count": 1,
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
+          },
+          {
+            "name": "minecraft:bone",
+            "metadata": 0,
+            "count": 1,
+            "rolls": 9,
+            "chance": 0.125,
+            "meshLevel": 2
           }
         ]
-      },
-      {
-        "name": "",
-        "metadata": "*",
-        "type": "generate",
-        "source": "",
-        "sourceMetadata": "*",
-        "sourceCount": 9
       }
-    ],
-    "example_generate": {
-      "__comment": "This example would allow Double Compressed Gravel to be sifted in a Heavy Sieve into 64x the rewards of normal gravel.",
-      "name": "ExUtils2:CompressedGravel",
-      "metadata": "1",
-      "type": "generate",
-      "source": "minecraft:gravel",
-      "sourceMetadata": "*",
-      "sourceCount": 64
-    },
-    "example_list": {
-      "__comment": "This example would allow clay to be sifted in a Heavy Sieve into 6 diamonds.",
-      "name": "ExUtils2:CompressedGravel",
-      "metadata": "1",
-      "type": "list",
-      "rewards": [
-        {
-          "name": "minecraft:diamond",
-          "metadata": 0,
-          "count": 6,
-          "rolls": 2,
-          "chance": 1.0,
-          "meshLevel": 1
-        }
-      ]
-    }
+    ]
   }
 }
