@@ -1,7 +1,7 @@
 {
 	title: "Alloys",
 	x: 1.5d,
-	y: 1.5d,
+	y: -1.5d,
 	text: [
 		"Bronze: 3 parts Copper, 1 part Tin",
 		"Invar: 2 parts Iron, 1 part Nickel",

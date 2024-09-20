@@ -1,6 +1,6 @@
 {
 	title: "Go Big or go Home",
-	x: 9.0d,
+	x: 7.0d,
 	y: -5.0d,
 	shape: "gear",
 	text: [

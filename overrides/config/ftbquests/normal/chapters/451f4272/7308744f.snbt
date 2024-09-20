@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	text: [
+		"If you are struggling with mob drops, bone blocks can be sieved to drop some"
+	],
+	dependencies: [
+		"d02ecf6d"
+	],
+	tasks: [{
+		uid: "60e8966b",
+		type: "item",
+		items: [{
+			item: "minecraft:bone_block"
+		}]
+	}]
+}

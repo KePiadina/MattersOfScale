@@ -17,10 +17,5 @@
 			item: "immersiveengineering:stone_decoration"
 		}],
 		count: 27L
-	}],
-	rewards: [{
-		uid: "778a2e8c",
-		type: "item",
-		item: "immersiveengineering:tool"
 	}]
 }

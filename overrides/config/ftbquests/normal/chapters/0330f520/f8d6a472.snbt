@@ -1,7 +1,7 @@
 {
 	title: "Kiln Oven",
-	x: -0.5d,
-	y: -1.0d,
+	x: -1.0d,
+	y: -1.5d,
 	text: [
 		"Note: 2 iron ingots, 2 Rotten flesh, and 1 Clay ball make 2 Pigiron ingots.",
 		"",

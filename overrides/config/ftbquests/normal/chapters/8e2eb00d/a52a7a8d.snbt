@@ -1,6 +1,10 @@
 {
 	x: -3.0d,
 	y: -6.0d,
+	description: "You should've started farming earlier.",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"a3ceffb3"

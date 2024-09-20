@@ -1,7 +1,7 @@
 {
 	title: "Your First Generator",
 	x: 0.0d,
-	y: 1.0d,
+	y: 2.0d,
 	text: [
 		"While weak, this will be your first power source and energy storage of the playthrough.",
 		"",

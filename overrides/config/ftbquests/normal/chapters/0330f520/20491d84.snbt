@@ -1,7 +1,7 @@
 {
 	title: "Big Soup",
 	x: -2.0d,
-	y: 0.0d,
+	y: -1.5d,
 	text: [
 		"The Smeltery will be your first real machine. It can melt ores using lava and pour them into casts",
 		"",

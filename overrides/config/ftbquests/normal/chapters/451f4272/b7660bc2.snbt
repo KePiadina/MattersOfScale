@@ -1,7 +1,7 @@
 {
 	title: "Trophies",
-	x: -10.5d,
-	y: 2.0d,
+	x: -16.5d,
+	y: -5.0d,
 	text: [
 		"Trophies may drop with a very low drop chance from most mobs. While some of them are useless, most provide a large amount of drops.",
 		"",
