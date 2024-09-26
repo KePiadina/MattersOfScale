@@ -442,6 +442,7 @@
     ],
     "lootItems": [
       "minecraft:skull,18,1",
+      "extrautils2:ingredients,3,10",
       "minecraft:coal,28"
     ],
     "trial": {
