@@ -28,7 +28,7 @@
             "name": "minecraft:gunpowder",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           },
@@ -36,7 +36,7 @@
             "name": "minecraft:rotten_flesh",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           },
@@ -44,7 +44,7 @@
             "name": "minecraft:spider_eye",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           },
@@ -52,7 +52,7 @@
             "name": "minecraft:string",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           },
@@ -60,7 +60,7 @@
             "name": "minecraft:ender_pearl",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           },
@@ -68,7 +68,7 @@
             "name": "minecraft:bone",
             "metadata": 0,
             "count": 1,
-            "rolls": 9,
+            "rolls": 1,
             "chance": 0.125,
             "meshLevel": 2
           }
