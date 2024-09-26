@@ -130,7 +130,7 @@ mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:shulker_shell> * 64) % 1
 mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:bone> * 64) % 100, (<minecraft:coal> * 64) % 100], <openblocks:trophy>.withTag({entity_id: "minecraft:wither_skeleton"}), <liquid:experience> * 1000, 4000);
 
 //Bone block centrifuge for blocks
-mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:gunpowder> * 64) % 25,(<minecraft:ender_pearl> * 64) % 25,(<minecraft:rotten_flesh> * 64) % 25,(<minecraft:spider_eye> * 64) % 25], <minecraft:bone_block>, null, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:gunpowder> * 1) % 25,(<minecraft:ender_pearl> * 1) % 25,(<minecraft:rotten_flesh> * 1) % 25,(<minecraft:spider_eye> * 1) % 25], <minecraft:bone_block>, null, 4000);
 
 //Made Glowing chorus require Aerotheum
 recipes.removeShaped(<cyclicmagic:glowing_chorus>);
