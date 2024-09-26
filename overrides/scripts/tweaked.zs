@@ -23,6 +23,14 @@ mods.mekanism.infuser.addRecipe("REDSTONE", 40, <appliedenergistics2:material:18
 mods.thermalexpansion.Transposer.addFillRecipe(<avaritia:resource:4>, <thermalfoundation:material:1025>, <liquid:neutron> * 144, 40000);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:neutron> * 144, <avaritia:resource:4>, 200, 4000]);
 
+//Made Protein reactor & generator slightly easier to get
+recipes.removeShaped(<industrialforegoing:protein_reactor>);
+recipes.addShaped(<industrialforegoing:protein_reactor>, [[<ore:bioplastic>, <ore:listAllmeatraw>, <ore:bioplastic>], [<minecraft:egg>, <thermalexpansion:frame:64>, <minecraft:egg>], [<minecraft:brick>, <ore:gearGold>, <minecraft:brick>]]);
+
+recipes.removeShaped(<industrialforegoing:protein_generator>);
+recipes.addShaped(<industrialforegoing:protein_generator>, [[<ore:bioplastic>, <minecraft:furnace>, <ore:bioplastic>], [<minecraft:piston>, <thermalexpansion:frame:64>, <minecraft:piston>], [<minecraft:spider_eye> | <minecraft:rotten_flesh> | <ore:listAllmeatraw>, <minecraft:piston>, <minecraft:spider_eye> | <minecraft:rotten_flesh> | <ore:listAllmeatraw>]]);
+
+
 //Made Quantum items slightly harder to craft
 recipes.remove(<quantumstorage:quantum_storage_unit>);
 recipes.addShaped(<quantumstorage:quantum_storage_unit>, [[<ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>], [<ore:ingotStellarAlloy>, <ore:ingotCrystalMatrix>, <ore:ingotStellarAlloy>], [<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>]]);
@@ -173,3 +181,6 @@ mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecra
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:ender_pearl>, 0.2);
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:string>, 0.2);
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:bone_block>, <minecraft:bone>, 0.2);
+
+mods.tconstruct.Melting.addRecipe(<liquid:syrup> * 144, <avaritia:resource:5>);
+mods.tconstruct.Alloy.addRecipe(<liquid:infinity> * 2, [<liquid:neutron> * 48, <liquid:syrup> * 22, <liquid:diamond> * 2035]);
