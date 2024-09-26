@@ -10,7 +10,7 @@
 		"More complex foods will, of course, give more hunger and saturation. Top tier items will also give buffs.",
 		"",
 		"Unlike other modpacks, there isn't a real incentive beyond perfectionism to craft every single food item, so you could eat bread from stone age to infinity gear.",
-		"You will need to cultivate everything by the endgame, though"
+		"You will need to cultivate everything by the endgame, though. Craft a Market, if you need to."
 	],
 	dependencies: [
 		"0229b7c9"

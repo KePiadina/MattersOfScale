@@ -116,3 +116,7 @@ mods.jei.JEI.removeAndHide(<extendedcrafting:singularity_ultimate>);
 //JEI categories - They appear for all items and blocks
 mods.jei.JEI.hideCategory("Painter");
 mods.jei.JEI.hideCategory("jeresources.enchantment");
+
+//HarvestCraft market and bin - Removed in favor of quest
+mods.jei.JEI.removeAndHide(<harvestcraft:shippingbin>);
+mods.jei.JEI.removeAndHide(<harvestcraft:market>);
