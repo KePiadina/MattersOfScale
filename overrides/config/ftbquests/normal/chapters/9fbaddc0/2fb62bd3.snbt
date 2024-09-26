@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	can_repeat: true,
+	dependencies: [
+		"a7c374fc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "80986165",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 131"
+		}]
+	}],
+	rewards: [{
+		uid: "67b464eb",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

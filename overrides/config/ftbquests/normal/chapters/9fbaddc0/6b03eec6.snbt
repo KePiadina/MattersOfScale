@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	can_repeat: true,
+	dependencies: [
+		"7df02fca"
+	],
+	tasks: [{
+		uid: "ac04c3fc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ccc76f23",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

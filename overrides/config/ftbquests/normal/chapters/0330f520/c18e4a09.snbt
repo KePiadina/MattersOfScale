@@ -9,7 +9,8 @@
 		"Better start automating early!"
 	],
 	dependencies: [
-		"6300b1be"
+		"61216090",
+		"ebdf1969"
 	],
 	size: 2.0d,
 	tasks: [{

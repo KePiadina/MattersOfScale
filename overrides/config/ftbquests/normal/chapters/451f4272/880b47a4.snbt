@@ -2,7 +2,9 @@
 	x: -11.5d,
 	y: 1.0d,
 	text: [
-		"Thermoelectric Generators have been made slightly faster to craft."
+		"Thermoelectric Generators have been made slightly faster to craft.",
+		"",
+		"The most effective method to get passive energy would be magma blocks and packed ice (you can get it with the Glacial Precipitator)"
 	],
 	hide_dependency_lines: true,
 	dependencies: [
