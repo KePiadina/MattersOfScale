@@ -72,6 +72,7 @@
       "minecraft:ender_dragon"
     ],
     "lootItems": [
+      "minecraft:elytra",
       "minecraft:dragon_breath,32",
       "draconicevolution:dragon_heart,1",
       "draconicevolution:draconium_dust,64",
@@ -291,6 +292,7 @@
     ],
     "lootItems": [
       "minecraft:slime_ball,32",
+      "randomthings:slimecube",
       "thermalfoundation:material,12,129",
       "mekanism:ingot,16,1"
     ],
