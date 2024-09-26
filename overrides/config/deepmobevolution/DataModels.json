@@ -14,7 +14,8 @@
     "lootItems": [
       "minecraft:blaze_rod,22",
       "thermalfoundation:material,32,771",
-      "minecraft:quartz,24"
+      "minecraft:quartz,24",
+      "thermalfoundation:coin,3,101"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,
@@ -43,7 +44,8 @@
     "lootItems": [
       "minecraft:gunpowder,64",
       "minecraft:skull,6,4",
-      "thermalfoundation:material,12,133"
+      "thermalfoundation:material,12,133",
+      "thermalfoundation:coin,3,97"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,
@@ -95,7 +97,8 @@
       "minecraft:iron_ingot,16",
       "minecraft:emerald,6",
       "appliedenergistics2:material,14",
-      "thermalfoundation:geode,1"
+      "thermalfoundation:geode,1",
+      "thermalfoundation:coin,3,97"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,
@@ -127,7 +130,8 @@
       "minecraft:ender_pearl,6",
       "minecraft:end_crystal,1",
       "enderio:block_enderman_skull,2",
-      "thermalfoundation:material,12,131"
+      "thermalfoundation:material,12,131",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": "deepmoblearning:trial_enderman",
@@ -162,7 +166,8 @@
     ],
     "lootItems": [
       "minecraft:ghast_tear,8",
-      "thermalfoundation:material,12,130"
+      "thermalfoundation:material,12,130",
+      "thermalfoundation:coin,3,101"
     ],
     "deepLearnerDisplay": {
       "hearts": 10,
@@ -193,7 +198,8 @@
       "minecraft:prismarine_crystals,32",
       "minecraft:fish,64,0",
       "minecraft:gold_ingot,8",
-      "minecraft:dye,12,4"
+      "minecraft:dye,12,4",
+      "thermalfoundation:coin,3,97"
     ],
     "deepLearnerDisplay": {
       "hearts": 15,
@@ -222,7 +228,8 @@
     ],
     "lootItems": [
       "minecraft:shulker_shell,18",
-      "minecraft:diamond,2"
+      "minecraft:diamond,2",
+      "thermalfoundation:coin,3,97"
     ],
     "deepLearnerDisplay": {
       "hearts": 15,
@@ -253,7 +260,8 @@
       "minecraft:bone,64",
       "minecraft:arrow,64",
       "minecraft:skull,6",
-      "thermalfoundation:material,18,128"
+      "thermalfoundation:material,18,128",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": [
@@ -294,7 +302,8 @@
       "minecraft:slime_ball,32",
       "randomthings:slimecube",
       "thermalfoundation:material,12,129",
-      "mekanism:ingot,16,1"
+      "mekanism:ingot,16,1",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": "deepmoblearning:trial_slime",
@@ -334,7 +343,8 @@
       "minecraft:spider_eye,16",
       "minecraft:string,64",
       "minecraft:web,8",
-      "thermalfoundation:material,10,132"
+      "thermalfoundation:material,10,132",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": [
@@ -376,7 +386,8 @@
     "lootItems": [
       "minecraft:redstone,32",
       "minecraft:glowstone_dust,32",
-      "minecraft:sugar,64"
+      "minecraft:sugar,64",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": "minecraft:witch",
@@ -413,7 +424,8 @@
     "lootItems": [
       "minecraft:nether_star,3",
       "thermalfoundation:material,1,134",
-      "immersiveengineering:metal,4,5"
+      "immersiveengineering:metal,4,5",
+      "thermalfoundation:coin,3,97"
     ],
     "deepLearnerDisplay": {
       "hearts": 150,
@@ -443,7 +455,8 @@
     "lootItems": [
       "minecraft:skull,18,1",
       "extrautils2:ingredients,3,10",
-      "minecraft:coal,28"
+      "minecraft:coal,28",
+      "thermalfoundation:coin,3,101"
     ],
     "trial": {
       "entities": "minecraft:wither_skeleton",
@@ -483,7 +496,8 @@
       "minecraft:rotten_flesh,64",
       "minecraft:iron_ingot,16",
       "minecraft:carrot,32",
-      "minecraft:potato,32"
+      "minecraft:potato,32",
+      "thermalfoundation:coin,3,97"
     ],
     "trial": {
       "entities": [
@@ -527,7 +541,8 @@
     "associatedMobs": [
       "thermalfoundation:blizz",
       "thermalfoundation:blitz",
-      "thermalfoundation:basalz"
+      "thermalfoundation:basalz",
+      "thermalfoundation:coin,3,97"
     ],
     "lootItems": [
       "thermalfoundation:material,16,772",
