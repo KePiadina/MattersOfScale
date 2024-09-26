@@ -226,4 +226,29 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:augment:720>);
 recipes.removeShaped(<thermalexpansion:dynamo:5>);
 recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <deepmoblearning:data_model_blank>, null], [<ore:ingotIron>, <ore:gearConstantan>, <ore:ingotIron>], [<ore:ingotConstantan>, <ore:dustRedstone>, <ore:ingotConstantan>]]);
 
+//Tweaked recipe to make them harder but better
+recipes.removeShaped(<industrialrenewal:energy_cable_lv>);
+recipes.addShaped(<industrialrenewal:energy_cable_lv>, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<actuallyadditions:item_crystal>, <actuallyadditions:item_crystal>, <actuallyadditions:item_crystal>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
 
+recipes.removeShaped(<industrialrenewal:energy_cable>);
+recipes.addShaped(<industrialrenewal:energy_cable>, [
+	[<industrialrenewal:energy_cable_lv>, <industrialrenewal:energy_cable_lv>, <industrialrenewal:energy_cable_lv>], 
+	[<ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>, <ore:itemCompressedRedstone>], 
+	[<industrialrenewal:energy_cable_lv>, <industrialrenewal:energy_cable_lv>, <industrialrenewal:energy_cable_lv>]
+]);
+
+recipes.removeShaped(<industrialrenewal:energy_cable_hv>);
+recipes.addShaped(<industrialrenewal:energy_cable_hv>, [
+	[<industrialrenewal:energy_cable>, <industrialrenewal:energy_cable>, <industrialrenewal:energy_cable>], 
+	[<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>], 
+	[<industrialrenewal:energy_cable>, <industrialrenewal:energy_cable>, <industrialrenewal:energy_cable>]
+]);
+recipes.addShaped(<industrialrenewal:energy_cable_hv>, [
+	[<ore:plateRestonia>, <ore:plateRestonia>, <ore:plateRestonia>], 
+	[<ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>, <ore:ingotRedstoneAlloy>], 
+	[<ore:plateRestonia>, <ore:plateRestonia>, <ore:plateRestonia>]
+]);
