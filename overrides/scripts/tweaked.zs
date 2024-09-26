@@ -190,10 +190,23 @@ mods.tconstruct.Melting.addRecipe(<liquid:syrup> * 144, <avaritia:resource:5>);
 mods.tconstruct.Alloy.addRecipe(<liquid:infinity> * 2, [<liquid:neutron> * 48, <liquid:syrup> * 22, <liquid:diamond> * 2035]);
 
 //Pink slime alt recipe to make Mob Slaughter machine redundant
-mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> *1 ) % 100], 
-	<deepmoblearning:pristine_matter_blaze> | <deepmoblearning:pristine_matter_creeper> | <deepmoblearning:pristine_matter_dragon> | <deepmoblearning:pristine_matter_enderman> |
-	<deepmoblearning:pristine_matter_ghast> | <deepmoblearning:pristine_matter_guardian> | <deepmoblearning:pristine_matter_shulker> | <deepmoblearning:pristine_matter_skeleton> |
-	<deepmoblearning:pristine_matter_slime> | <deepmoblearning:pristine_matter_spider> | <deepmoblearning:pristine_matter_thermal_elemental> | <deepmoblearning:pristine_matter_witch> |
-	<deepmoblearning:pristine_matter_wither> | <deepmoblearning:pristine_matter_wither_skeleton> | <deepmoblearning:pristine_matter_zombie>, <liquid:if.pink_slime> * 80, 4000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:if.pink_slime> * 1000, <industrialforegoing:pink_slime>, null, 100000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<industrialforegoing:pink_slime_ingot> * 1, <industrialforegoing:pink_slime>, <ore:ingotIron>, 4000);
+
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_blaze>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_creeper>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_dragon>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_enderman>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_ghast>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_guardian>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_shulker>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_skeleton>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_slime>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_spider>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_thermal_elemental>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_witch>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_wither>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_wither_skeleton>, <liquid:if.pink_slime> * 80, 4000);
+mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100], <deepmoblearning:pristine_matter_zombie>, <liquid:if.pink_slime> * 80, 4000);
+
+mods.thermalexpansion.Refinery.addRecipe(<liquid:if.pink_slime> * 1000, <industrialforegoing:pink_slime>, null, 4000);
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<industrialforegoing:pink_slime_ingot>, <industrialforegoing:pink_slime>, <minecraft:iron_ingot>, 4000);
