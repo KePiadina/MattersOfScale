@@ -17,7 +17,7 @@
 		items: [{
 			item: "thermalexpansion:frame 1 131"
 		}],
-		count: 48L,
+		count: 24L,
 		consume_items: true
 	}],
 	rewards: [{

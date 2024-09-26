@@ -1981,15 +1981,6 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Molten Glass
 extracells:pattern.fluid:0, ME Fluid Pattern: Blood
 extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Blue Slime
 extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Purple Slime
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Certus Quartz
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Charged Certus Quartz
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Dimensional Shard
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ender Biotite
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Mithril
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Peridot
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Quartz Black
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ruby
-extracells:pattern.fluid:0, ME Fluid Pattern: Molten Sapphire
 extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
 extracells:storage.component:0, 256k ME Storage Component
 extracells:storage.component:1, 1024k ME Storage Component
@@ -10351,135 +10342,6 @@ appliedenergistics2:facade:0, Cable Facade - Lava Infused Stone
 appliedenergistics2:facade:0, Cable Facade - Octuple Compressed Sugar Cane
 appliedenergistics2:facade:0, Cable Facade - Hardened Stone Bricks Slab
 appliedenergistics2:facade:0, Cable Facade - Compressed Flesh Block
-appliedenergistics2:facade:0, Cable Facade - Block of Aerotheum
-appliedenergistics2:facade:0, Cable Facade - Block of Alugentum
-appliedenergistics2:facade:0, Cable Facade - Block of Amber
-appliedenergistics2:facade:0, Cable Facade - Block of Americium 241
-appliedenergistics2:facade:0, Cable Facade - Block of Americium 241 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Americium 242
-appliedenergistics2:facade:0, Cable Facade - Block of Americium 242 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Americium 243 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Arsenic
-appliedenergistics2:facade:0, Cable Facade - Block of Basalz
-appliedenergistics2:facade:0, Cable Facade - Block of Bedrock
-appliedenergistics2:facade:0, Cable Facade - Block of Berkelium 247 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Berkelium 248
-appliedenergistics2:facade:0, Cable Facade - Block of Berkelium 248 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Blaze
-appliedenergistics2:facade:0, Cable Facade - Block of Blitz
-appliedenergistics2:facade:0, Cable Facade - Block of Blizz
-appliedenergistics2:facade:0, Cable Facade - Block of Borax
-appliedenergistics2:facade:0, Cable Facade - Block of Boron 10
-appliedenergistics2:facade:0, Cable Facade - Block of Boron 11
-appliedenergistics2:facade:0, Cable Facade - Block of Boron Arsenide
-appliedenergistics2:facade:0, Cable Facade - Block of Boron Nitride
-appliedenergistics2:facade:0, Cable Facade - Block of Brick
-appliedenergistics2:facade:0, Cable Facade - Block of Brick Nether
-appliedenergistics2:facade:0, Cable Facade - Block of Brick Nether Glazed
-appliedenergistics2:facade:0, Cable Facade - Block of Brick Seared
-appliedenergistics2:facade:0, Cable Facade - Block of Calcium Sulfate
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 249
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 249 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 250
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 250 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 251
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 251 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Californium 252 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Carbon Manganese
-appliedenergistics2:facade:0, Cable Facade - Block of Carobbiite
-appliedenergistics2:facade:0, Cable Facade - Block of Certus Quartz
-appliedenergistics2:facade:0, Cable Facade - Block of Charged Certus Quartz
-appliedenergistics2:facade:0, Cable Facade - Block of Chocolate
-appliedenergistics2:facade:0, Cable Facade - Block of Cinnabar
-appliedenergistics2:facade:0, Cable Facade - Block of Cocoa
-appliedenergistics2:facade:0, Cable Facade - Block of Cocoa Butter
-appliedenergistics2:facade:0, Cable Facade - Block of Coke
-appliedenergistics2:facade:0, Cable Facade - Block of Crude Oil
-appliedenergistics2:facade:0, Cable Facade - Block of Cryotheum
-appliedenergistics2:facade:0, Cable Facade - Block of Crystal Binder
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 243
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 243 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 245
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 245 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 246 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 247
-appliedenergistics2:facade:0, Cable Facade - Block of Curium 247 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Dark Chocolate
-appliedenergistics2:facade:0, Cable Facade - Block of Dimensional
-appliedenergistics2:facade:0, Cable Facade - Block of Dimensional Shard
-appliedenergistics2:facade:0, Cable Facade - Block of Electrotine Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Ender
-appliedenergistics2:facade:0, Cable Facade - Block of Ender Biotite
-appliedenergistics2:facade:0, Cable Facade - Block of Ender Pearl
-appliedenergistics2:facade:0, Cable Facade - Block of Endstone
-appliedenergistics2:facade:0, Cable Facade - Block of Energetic
-appliedenergistics2:facade:0, Cable Facade - Block of Extreme
-appliedenergistics2:facade:0, Cable Facade - Block of Ferroboron
-appliedenergistics2:facade:0, Cable Facade - Block of Fluix
-appliedenergistics2:facade:0, Cable Facade - Block of Fluorite
-appliedenergistics2:facade:0, Cable Facade - Block of HOP Graphite
-appliedenergistics2:facade:0, Cable Facade - Block of HSLA Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Hard Carbon
-appliedenergistics2:facade:0, Cable Facade - Block of Lead Platinum
-appliedenergistics2:facade:0, Cable Facade - Block of Lithium 6
-appliedenergistics2:facade:0, Cable Facade - Block of Lithium 7
-appliedenergistics2:facade:0, Cable Facade - Block of Lithium Manganese Dioxide
-appliedenergistics2:facade:0, Cable Facade - Block of Lunar
-appliedenergistics2:facade:0, Cable Facade - Block of Magnesium Diboride
-appliedenergistics2:facade:0, Cable Facade - Block of Mana
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese Dioxide
-appliedenergistics2:facade:0, Cable Facade - Block of Manganese Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Marshmallow
-appliedenergistics2:facade:0, Cable Facade - Block of Moon
-appliedenergistics2:facade:0, Cable Facade - Block of Neptunium 236
-appliedenergistics2:facade:0, Cable Facade - Block of Neptunium 236 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Neptunium 237 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Nether Quartz
-appliedenergistics2:facade:0, Cable Facade - Block of Obsidian
-appliedenergistics2:facade:0, Cable Facade - Block of Petrotheum
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 238
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 238 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 239
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 239 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 241
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 241 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Plutonium 242 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Potassium Fluoride
-appliedenergistics2:facade:0, Cable Facade - Block of Potassium Hydroxide
-appliedenergistics2:facade:0, Cable Facade - Block of Pure Nether Quartz
-appliedenergistics2:facade:0, Cable Facade - Block of Pyrotheum
-appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Rhodochrosite
-appliedenergistics2:facade:0, Cable Facade - Block of Saltpeter
-appliedenergistics2:facade:0, Cable Facade - Block of Shibuichi
-appliedenergistics2:facade:0, Cable Facade - Block of Si C Si CCMC
-appliedenergistics2:facade:0, Cable Facade - Block of Silicon
-appliedenergistics2:facade:0, Cable Facade - Block of Silicon Carbide
-appliedenergistics2:facade:0, Cable Facade - Block of Slag
-appliedenergistics2:facade:0, Cable Facade - Block of Slag Rich
-appliedenergistics2:facade:0, Cable Facade - Block of Sodium Fluoride
-appliedenergistics2:facade:0, Cable Facade - Block of Sodium Hydroxide
-appliedenergistics2:facade:0, Cable Facade - Block of Sulfur
-appliedenergistics2:facade:0, Cable Facade - Block of Thermoconducting
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium 230 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium 232
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium 232 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Thorium Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Tin Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Tough
-appliedenergistics2:facade:0, Cable Facade - Block of Unstable
-appliedenergistics2:facade:0, Cable Facade - Block of Unsweetened Chocolate
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 233
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 233 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 235
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 235 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium 238 Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Uranium Oxide
-appliedenergistics2:facade:0, Cable Facade - Block of Villiaumite
-appliedenergistics2:facade:0, Cable Facade - Block of Wheat
-appliedenergistics2:facade:0, Cable Facade - Block of Wood
-appliedenergistics2:facade:0, Cable Facade - Block of Wub
-appliedenergistics2:facade:0, Cable Facade - Block of Zircaloy
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
 appliedenergistics2:crystal_seed:600, Nether Quartz Seed
 appliedenergistics2:crystal_seed:1200, Fluix Seed
@@ -10709,6 +10571,23 @@ appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
 akashictome:tome, item.tome.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -10833,23 +10712,6 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -10949,6 +10811,23 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:witch_hat, item.witch_hat.name
 quark:pickarang, item.pickarang.name
 quark:arrow_ender, item.arrow_ender.name
@@ -10982,23 +10861,6 @@ quark:parrot_egg:2, Green Parrot Egg
 quark:parrot_egg:3, Cyan Parrot Egg
 quark:parrot_egg:4, Gray Parrot Egg
 quark:enderdragon_scale, item.enderdragon_scale.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
 baubles:ring:0, Miner's Ring
 bibliocraft:bookcase:0, Oak Bookcase
 bibliocraft:bookcase:1, Spruce Bookcase
@@ -12669,44 +12531,44 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Laser Medium Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Helmet Core Pattern
 tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Pan Pattern
 tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:sharpening_kit:0, Electrical Sharpening Kit
 tconstruct:pick_head:0, Electrical Pickaxe Head
@@ -12813,86 +12675,86 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Laser Medium Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Helmet Core Cast
 tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Pan Cast
 tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Battery Cell Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Pipe Piece Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Laser Medium Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Laser Medium Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
 tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
 tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Battery Cell Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Pipe Piece Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Laser Medium Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -13587,6 +13449,12 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+engineersdoors:trapdoor_concrete, Concrete Trapdoor
+engineersdoors:trapdoor_steel, Steel Trapdoor
+engineersdoors:trapdoor_treated, Treated Wood Trapdoor
+engineersdoors:fencegate_aluminium, Aluminum Fence Gate
+engineersdoors:fencegate_steel, Steel Fence Gate
+engineersdoors:fencegate_treated, Treated Wood Fence Gate
 engineersdoors:door_concrete, Concrete Door
 engineersdoors:door_concrete_ornate, Concrete Door
 engineersdoors:door_concrete_reinforced, Concrete Door
@@ -13596,12 +13464,6 @@ engineersdoors:door_steel_reinforced, Steel Door
 engineersdoors:door_treated, Treated Wood Door
 engineersdoors:door_treated_ornate, Treated Wood Door
 engineersdoors:door_treated_reinforced, Treated Wood Door
-engineersdoors:fencegate_aluminium, Aluminum Fence Gate
-engineersdoors:fencegate_steel, Steel Fence Gate
-engineersdoors:fencegate_treated, Treated Wood Fence Gate
-engineersdoors:trapdoor_concrete, Concrete Trapdoor
-engineersdoors:trapdoor_steel, Steel Trapdoor
-engineersdoors:trapdoor_treated, Treated Wood Trapdoor
 exnihilocreatio:hammer_wood, Wooden Hammer
 exnihilocreatio:hammer_stone, Stone Hammer
 exnihilocreatio:hammer_iron, Iron Hammer
@@ -14549,30 +14411,6 @@ mekanism:gastank:0, Basic Gas Tank
 mekanism:gastank:0, Advanced Gas Tank
 mekanism:gastank:0, Elite Gas Tank
 mekanism:gastank:0, Ultimate Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
-mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
 mekanism:gastank:0, Creative Gas Tank
@@ -16408,6 +16246,18 @@ industrialforegoing:conveyor:13, Green§r Conveyor Belt
 industrialforegoing:conveyor:14, Red§r Conveyor Belt
 industrialforegoing:conveyor:15, Black§r Conveyor Belt
 industrialforegoing:black_hole_label, Black Hole Label
+threng:machine:0, Fluix Aggregator
+threng:machine:1, Pulse Centrifuge
+threng:machine:2, ME Circuit Etcher
+threng:machine:3, Preemptive Assembly Unit
+threng:machine:4, ME Level Maintainer
+threng:machine:5, Crystal Energizer
+threng:big_assembler:0, Mass Assembler Frame
+threng:big_assembler:1, Mass Assembler Vent
+threng:big_assembler:2, Mass Assembler Controller
+threng:big_assembler:3, MA Pattern Provider
+threng:big_assembler:4, MA Crafting Coprocessor
+threng:big_assembler:5, Mass Assembler IO Port
 threng:material:0, Fluix Steel Ingot
 threng:material:1, Carbonic Fluix Complex
 threng:material:2, Fluix-Plated Iron Ingot
@@ -16423,18 +16273,6 @@ threng:material:11, Speculation Core (16x)
 threng:material:12, Speculation Core (32x)
 threng:material:13, Speculation Core (64x)
 threng:material:14, Speculative Processor
-threng:machine:0, Fluix Aggregator
-threng:machine:1, Pulse Centrifuge
-threng:machine:2, ME Circuit Etcher
-threng:machine:3, Preemptive Assembly Unit
-threng:machine:4, ME Level Maintainer
-threng:machine:5, Crystal Energizer
-threng:big_assembler:0, Mass Assembler Frame
-threng:big_assembler:1, Mass Assembler Vent
-threng:big_assembler:2, Mass Assembler Controller
-threng:big_assembler:3, MA Pattern Provider
-threng:big_assembler:4, MA Crafting Coprocessor
-threng:big_assembler:5, Mass Assembler IO Port
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
 mekores:mekanismore:0, Uranium Crystal
 mekores:mekanismore:1, Uranium Shard
@@ -18438,309 +18276,3 @@ tp:iron_apple, Iron Apple
 tp:old_reed, Dried up Reed
 tp:blackberry_bush, Blackberry Bush
 tp:cobblegen_block, Cobblestone Generator
-jaopca:block.aerotheum, block.jaopca.block.aerotheum.name
-jaopca:block.alugentum, block.jaopca.block.alugentum.name
-jaopca:block.amber, block.jaopca.block.amber.name
-jaopca:block.americium_241, block.jaopca.block.americium_241.name
-jaopca:block.americium_241_oxide, block.jaopca.block.americium_241_oxide.name
-jaopca:block.americium_242, block.jaopca.block.americium_242.name
-jaopca:block.americium_242_oxide, block.jaopca.block.americium_242_oxide.name
-jaopca:block.americium_243_oxide, block.jaopca.block.americium_243_oxide.name
-jaopca:block.arsenic, block.jaopca.block.arsenic.name
-jaopca:block.basalz, block.jaopca.block.basalz.name
-jaopca:block.bedrock, block.jaopca.block.bedrock.name
-jaopca:block.berkelium_247_oxide, block.jaopca.block.berkelium_247_oxide.name
-jaopca:block.berkelium_248, block.jaopca.block.berkelium_248.name
-jaopca:block.berkelium_248_oxide, block.jaopca.block.berkelium_248_oxide.name
-jaopca:block.blaze, block.jaopca.block.blaze.name
-jaopca:block.blitz, block.jaopca.block.blitz.name
-jaopca:block.blizz, block.jaopca.block.blizz.name
-jaopca:block.borax, block.jaopca.block.borax.name
-jaopca:block.boron_10, block.jaopca.block.boron_10.name
-jaopca:block.boron_11, block.jaopca.block.boron_11.name
-jaopca:block.boron_arsenide, block.jaopca.block.boron_arsenide.name
-jaopca:block.boron_nitride, block.jaopca.block.boron_nitride.name
-jaopca:block.brick, block.jaopca.block.brick.name
-jaopca:block.brick_nether, block.jaopca.block.brick_nether.name
-jaopca:block.brick_nether_glazed, block.jaopca.block.brick_nether_glazed.name
-jaopca:block.brick_seared, block.jaopca.block.brick_seared.name
-jaopca:block.calcium_sulfate, block.jaopca.block.calcium_sulfate.name
-jaopca:block.californium_249, block.jaopca.block.californium_249.name
-jaopca:block.californium_249_oxide, block.jaopca.block.californium_249_oxide.name
-jaopca:block.californium_250, block.jaopca.block.californium_250.name
-jaopca:block.californium_250_oxide, block.jaopca.block.californium_250_oxide.name
-jaopca:block.californium_251, block.jaopca.block.californium_251.name
-jaopca:block.californium_251_oxide, block.jaopca.block.californium_251_oxide.name
-jaopca:block.californium_252_oxide, block.jaopca.block.californium_252_oxide.name
-jaopca:block.carbon_manganese, block.jaopca.block.carbon_manganese.name
-jaopca:block.carobbiite, block.jaopca.block.carobbiite.name
-jaopca:block.certus_quartz, block.jaopca.block.certus_quartz.name
-jaopca:block.charged_certus_quartz, block.jaopca.block.charged_certus_quartz.name
-jaopca:block.chocolate, block.jaopca.block.chocolate.name
-jaopca:block.cinnabar, block.jaopca.block.cinnabar.name
-jaopca:block.cocoa, block.jaopca.block.cocoa.name
-jaopca:block.cocoa_butter, block.jaopca.block.cocoa_butter.name
-jaopca:block.coke, block.jaopca.block.coke.name
-jaopca:block.crude_oil, block.jaopca.block.crude_oil.name
-jaopca:block.cryotheum, block.jaopca.block.cryotheum.name
-jaopca:block.crystal_binder, block.jaopca.block.crystal_binder.name
-jaopca:block.curium_243, block.jaopca.block.curium_243.name
-jaopca:block.curium_243_oxide, block.jaopca.block.curium_243_oxide.name
-jaopca:block.curium_245, block.jaopca.block.curium_245.name
-jaopca:block.curium_245_oxide, block.jaopca.block.curium_245_oxide.name
-jaopca:block.curium_246_oxide, block.jaopca.block.curium_246_oxide.name
-jaopca:block.curium_247, block.jaopca.block.curium_247.name
-jaopca:block.curium_247_oxide, block.jaopca.block.curium_247_oxide.name
-jaopca:block.dark_chocolate, block.jaopca.block.dark_chocolate.name
-jaopca:block.dimensional, block.jaopca.block.dimensional.name
-jaopca:block.dimensional_shard, block.jaopca.block.dimensional_shard.name
-jaopca:block.electrotine_alloy, block.jaopca.block.electrotine_alloy.name
-jaopca:block.ender, block.jaopca.block.ender.name
-jaopca:block.ender_biotite, block.jaopca.block.ender_biotite.name
-jaopca:block.ender_pearl, block.jaopca.block.ender_pearl.name
-jaopca:block.endstone, block.jaopca.block.endstone.name
-jaopca:block.energetic, block.jaopca.block.energetic.name
-jaopca:block.extreme, block.jaopca.block.extreme.name
-jaopca:block.ferroboron, block.jaopca.block.ferroboron.name
-jaopca:block.fluix, block.jaopca.block.fluix.name
-jaopca:block.fluorite, block.jaopca.block.fluorite.name
-jaopca:block.h_o_p_graphite, block.jaopca.block.h_o_p_graphite.name
-jaopca:block.h_s_l_a_steel, block.jaopca.block.h_s_l_a_steel.name
-jaopca:block.hard_carbon, block.jaopca.block.hard_carbon.name
-jaopca:block.lead_platinum, block.jaopca.block.lead_platinum.name
-jaopca:block.lithium_6, block.jaopca.block.lithium_6.name
-jaopca:block.lithium_7, block.jaopca.block.lithium_7.name
-jaopca:block.lithium_manganese_dioxide, block.jaopca.block.lithium_manganese_dioxide.name
-jaopca:block.lunar, block.jaopca.block.lunar.name
-jaopca:block.magnesium_diboride, block.jaopca.block.magnesium_diboride.name
-jaopca:block.mana, block.jaopca.block.mana.name
-jaopca:block.manganese_dioxide, block.jaopca.block.manganese_dioxide.name
-jaopca:block.manganese_oxide, block.jaopca.block.manganese_oxide.name
-jaopca:block.marshmallow, block.jaopca.block.marshmallow.name
-jaopca:block.moon, block.jaopca.block.moon.name
-jaopca:block.neptunium_236, block.jaopca.block.neptunium_236.name
-jaopca:block.neptunium_236_oxide, block.jaopca.block.neptunium_236_oxide.name
-jaopca:block.neptunium_237_oxide, block.jaopca.block.neptunium_237_oxide.name
-jaopca:block.nether_quartz, block.jaopca.block.nether_quartz.name
-jaopca:block.obsidian, block.jaopca.block.obsidian.name
-jaopca:block.petrotheum, block.jaopca.block.petrotheum.name
-jaopca:block.plutonium_238, block.jaopca.block.plutonium_238.name
-jaopca:block.plutonium_238_oxide, block.jaopca.block.plutonium_238_oxide.name
-jaopca:block.plutonium_239, block.jaopca.block.plutonium_239.name
-jaopca:block.plutonium_239_oxide, block.jaopca.block.plutonium_239_oxide.name
-jaopca:block.plutonium_241, block.jaopca.block.plutonium_241.name
-jaopca:block.plutonium_241_oxide, block.jaopca.block.plutonium_241_oxide.name
-jaopca:block.plutonium_242_oxide, block.jaopca.block.plutonium_242_oxide.name
-jaopca:block.potassium_fluoride, block.jaopca.block.potassium_fluoride.name
-jaopca:block.potassium_hydroxide, block.jaopca.block.potassium_hydroxide.name
-jaopca:block.pure_nether_quartz, block.jaopca.block.pure_nether_quartz.name
-jaopca:block.pyrotheum, block.jaopca.block.pyrotheum.name
-jaopca:block.red_alloy, block.jaopca.block.red_alloy.name
-jaopca:block.rhodochrosite, block.jaopca.block.rhodochrosite.name
-jaopca:block.saltpeter, block.jaopca.block.saltpeter.name
-jaopca:block.shibuichi, block.jaopca.block.shibuichi.name
-jaopca:block.si_c_si_c_c_m_c, block.jaopca.block.si_c_si_c_c_m_c.name
-jaopca:block.silicon, block.jaopca.block.silicon.name
-jaopca:block.silicon_carbide, block.jaopca.block.silicon_carbide.name
-jaopca:block.slag, block.jaopca.block.slag.name
-jaopca:block.slag_rich, block.jaopca.block.slag_rich.name
-jaopca:block.sodium_fluoride, block.jaopca.block.sodium_fluoride.name
-jaopca:block.sodium_hydroxide, block.jaopca.block.sodium_hydroxide.name
-jaopca:block.sulfur, block.jaopca.block.sulfur.name
-jaopca:block.thermoconducting, block.jaopca.block.thermoconducting.name
-jaopca:block.thorium_230_oxide, block.jaopca.block.thorium_230_oxide.name
-jaopca:block.thorium_232, block.jaopca.block.thorium_232.name
-jaopca:block.thorium_232_oxide, block.jaopca.block.thorium_232_oxide.name
-jaopca:block.thorium_oxide, block.jaopca.block.thorium_oxide.name
-jaopca:block.tin_silver, block.jaopca.block.tin_silver.name
-jaopca:block.tough, block.jaopca.block.tough.name
-jaopca:block.unstable, block.jaopca.block.unstable.name
-jaopca:block.unsweetened_chocolate, block.jaopca.block.unsweetened_chocolate.name
-jaopca:block.uranium_233, block.jaopca.block.uranium_233.name
-jaopca:block.uranium_233_oxide, block.jaopca.block.uranium_233_oxide.name
-jaopca:block.uranium_235, block.jaopca.block.uranium_235.name
-jaopca:block.uranium_235_oxide, block.jaopca.block.uranium_235_oxide.name
-jaopca:block.uranium_238_oxide, block.jaopca.block.uranium_238_oxide.name
-jaopca:block.uranium_oxide, block.jaopca.block.uranium_oxide.name
-jaopca:block.villiaumite, block.jaopca.block.villiaumite.name
-jaopca:block.wheat, block.jaopca.block.wheat.name
-jaopca:block.wood, block.jaopca.block.wood.name
-jaopca:block.wub, block.jaopca.block.wub.name
-jaopca:block.zircaloy, block.jaopca.block.zircaloy.name
-jaopca:dust.alubrass, item.jaopca.dust.alubrass.name
-jaopca:dust.alumite, item.jaopca.dust.alumite.name
-jaopca:dust.amber, item.jaopca.dust.amber.name
-jaopca:dust.americium_241, item.jaopca.dust.americium_241.name
-jaopca:dust.americium_241_oxide, item.jaopca.dust.americium_241_oxide.name
-jaopca:dust.americium_242, item.jaopca.dust.americium_242.name
-jaopca:dust.americium_242_oxide, item.jaopca.dust.americium_242_oxide.name
-jaopca:dust.americium_243, item.jaopca.dust.americium_243.name
-jaopca:dust.americium_243_oxide, item.jaopca.dust.americium_243_oxide.name
-jaopca:dust.berkelium_247, item.jaopca.dust.berkelium_247.name
-jaopca:dust.berkelium_247_oxide, item.jaopca.dust.berkelium_247_oxide.name
-jaopca:dust.berkelium_248, item.jaopca.dust.berkelium_248.name
-jaopca:dust.berkelium_248_oxide, item.jaopca.dust.berkelium_248_oxide.name
-jaopca:dust.black_iron, item.jaopca.dust.black_iron.name
-jaopca:dust.boron_10, item.jaopca.dust.boron_10.name
-jaopca:dust.boron_11, item.jaopca.dust.boron_11.name
-jaopca:dust.boron_arsenide, item.jaopca.dust.boron_arsenide.name
-jaopca:dust.brick, item.jaopca.dust.brick.name
-jaopca:dust.brick_nether, item.jaopca.dust.brick_nether.name
-jaopca:dust.brick_nether_glazed, item.jaopca.dust.brick_nether_glazed.name
-jaopca:dust.brick_seared, item.jaopca.dust.brick_seared.name
-jaopca:dust.californium_249, item.jaopca.dust.californium_249.name
-jaopca:dust.californium_249_oxide, item.jaopca.dust.californium_249_oxide.name
-jaopca:dust.californium_250, item.jaopca.dust.californium_250.name
-jaopca:dust.californium_250_oxide, item.jaopca.dust.californium_250_oxide.name
-jaopca:dust.californium_251, item.jaopca.dust.californium_251.name
-jaopca:dust.californium_251_oxide, item.jaopca.dust.californium_251_oxide.name
-jaopca:dust.californium_252, item.jaopca.dust.californium_252.name
-jaopca:dust.californium_252_oxide, item.jaopca.dust.californium_252_oxide.name
-jaopca:dust.charged_certus_quartz, item.jaopca.dust.charged_certus_quartz.name
-jaopca:dust.chocolate, item.jaopca.dust.chocolate.name
-jaopca:dust.cinnabar, item.jaopca.dust.cinnabar.name
-jaopca:dust.cocoa_butter, item.jaopca.dust.cocoa_butter.name
-jaopca:dust.conductive_iron, item.jaopca.dust.conductive_iron.name
-jaopca:dust.construction_alloy, item.jaopca.dust.construction_alloy.name
-jaopca:dust.cosmic_neutronium, item.jaopca.dust.cosmic_neutronium.name
-jaopca:dust.crude_oil, item.jaopca.dust.crude_oil.name
-jaopca:dust.crude_steel, item.jaopca.dust.crude_steel.name
-jaopca:dust.crystal_flux, item.jaopca.dust.crystal_flux.name
-jaopca:dust.crystal_matrix, item.jaopca.dust.crystal_matrix.name
-jaopca:dust.crystalline_alloy, item.jaopca.dust.crystalline_alloy.name
-jaopca:dust.crystalline_pink_slime, item.jaopca.dust.crystalline_pink_slime.name
-jaopca:dust.crystaltine, item.jaopca.dust.crystaltine.name
-jaopca:dust.curium_243, item.jaopca.dust.curium_243.name
-jaopca:dust.curium_243_oxide, item.jaopca.dust.curium_243_oxide.name
-jaopca:dust.curium_245, item.jaopca.dust.curium_245.name
-jaopca:dust.curium_245_oxide, item.jaopca.dust.curium_245_oxide.name
-jaopca:dust.curium_246, item.jaopca.dust.curium_246.name
-jaopca:dust.curium_246_oxide, item.jaopca.dust.curium_246_oxide.name
-jaopca:dust.curium_247, item.jaopca.dust.curium_247.name
-jaopca:dust.curium_247_oxide, item.jaopca.dust.curium_247_oxide.name
-jaopca:dust.dark_chocolate, item.jaopca.dust.dark_chocolate.name
-jaopca:dust.dark_steel, item.jaopca.dust.dark_steel.name
-jaopca:dust.demonic_metal, item.jaopca.dust.demonic_metal.name
-jaopca:dust.dimensional_shard, item.jaopca.dust.dimensional_shard.name
-jaopca:dust.electrical_steel, item.jaopca.dust.electrical_steel.name
-jaopca:dust.electrotine_alloy, item.jaopca.dust.electrotine_alloy.name
-jaopca:dust.enchanted_metal, item.jaopca.dust.enchanted_metal.name
-jaopca:dust.end_steel, item.jaopca.dust.end_steel.name
-jaopca:dust.ender_biotite, item.jaopca.dust.ender_biotite.name
-jaopca:dust.energetic_alloy, item.jaopca.dust.energetic_alloy.name
-jaopca:dust.energetic_silver, item.jaopca.dust.energetic_silver.name
-jaopca:dust.evil_metal, item.jaopca.dust.evil_metal.name
-jaopca:dust.extreme, item.jaopca.dust.extreme.name
-jaopca:dust.ferroboron, item.jaopca.dust.ferroboron.name
-jaopca:dust.h_s_l_a_steel, item.jaopca.dust.h_s_l_a_steel.name
-jaopca:dust.hard_carbon, item.jaopca.dust.hard_carbon.name
-jaopca:dust.infinity, item.jaopca.dust.infinity.name
-jaopca:dust.knightslime, item.jaopca.dust.knightslime.name
-jaopca:dust.lead_platinum, item.jaopca.dust.lead_platinum.name
-jaopca:dust.lithium_6, item.jaopca.dust.lithium_6.name
-jaopca:dust.lithium_7, item.jaopca.dust.lithium_7.name
-jaopca:dust.lithium_manganese_dioxide, item.jaopca.dust.lithium_manganese_dioxide.name
-jaopca:dust.magnesium_diboride, item.jaopca.dust.magnesium_diboride.name
-jaopca:dust.manyullyn, item.jaopca.dust.manyullyn.name
-jaopca:dust.marshmallow, item.jaopca.dust.marshmallow.name
-jaopca:dust.melodic_alloy, item.jaopca.dust.melodic_alloy.name
-jaopca:dust.moon, item.jaopca.dust.moon.name
-jaopca:dust.neptunium_236, item.jaopca.dust.neptunium_236.name
-jaopca:dust.neptunium_236_oxide, item.jaopca.dust.neptunium_236_oxide.name
-jaopca:dust.neptunium_237, item.jaopca.dust.neptunium_237.name
-jaopca:dust.neptunium_237_oxide, item.jaopca.dust.neptunium_237_oxide.name
-jaopca:dust.osgloglas, item.jaopca.dust.osgloglas.name
-jaopca:dust.osmiridium, item.jaopca.dust.osmiridium.name
-jaopca:dust.peridot, item.jaopca.dust.peridot.name
-jaopca:dust.pigiron, item.jaopca.dust.pigiron.name
-jaopca:dust.plutonium_238, item.jaopca.dust.plutonium_238.name
-jaopca:dust.plutonium_238_oxide, item.jaopca.dust.plutonium_238_oxide.name
-jaopca:dust.plutonium_239, item.jaopca.dust.plutonium_239.name
-jaopca:dust.plutonium_239_oxide, item.jaopca.dust.plutonium_239_oxide.name
-jaopca:dust.plutonium_241, item.jaopca.dust.plutonium_241.name
-jaopca:dust.plutonium_241_oxide, item.jaopca.dust.plutonium_241_oxide.name
-jaopca:dust.plutonium_242, item.jaopca.dust.plutonium_242.name
-jaopca:dust.plutonium_242_oxide, item.jaopca.dust.plutonium_242_oxide.name
-jaopca:dust.pulsating_iron, item.jaopca.dust.pulsating_iron.name
-jaopca:dust.pure_nether_quartz, item.jaopca.dust.pure_nether_quartz.name
-jaopca:dust.red_alloy, item.jaopca.dust.red_alloy.name
-jaopca:dust.redstone_alloy, item.jaopca.dust.redstone_alloy.name
-jaopca:dust.refined_glowstone, item.jaopca.dust.refined_glowstone.name
-jaopca:dust.reinforced_obsidian, item.jaopca.dust.reinforced_obsidian.name
-jaopca:dust.ruby, item.jaopca.dust.ruby.name
-jaopca:dust.sapphire, item.jaopca.dust.sapphire.name
-jaopca:dust.shibuichi, item.jaopca.dust.shibuichi.name
-jaopca:dust.si_c_si_c_c_m_c, item.jaopca.dust.si_c_si_c_c_m_c.name
-jaopca:dust.silicon, item.jaopca.dust.silicon.name
-jaopca:dust.silicon_carbide, item.jaopca.dust.silicon_carbide.name
-jaopca:dust.slag, item.jaopca.dust.slag.name
-jaopca:dust.slag_rich, item.jaopca.dust.slag_rich.name
-jaopca:dust.stellar_alloy, item.jaopca.dust.stellar_alloy.name
-jaopca:dust.thermoconducting, item.jaopca.dust.thermoconducting.name
-jaopca:dust.thorium_230, item.jaopca.dust.thorium_230.name
-jaopca:dust.thorium_230_oxide, item.jaopca.dust.thorium_230_oxide.name
-jaopca:dust.thorium_232, item.jaopca.dust.thorium_232.name
-jaopca:dust.thorium_232_oxide, item.jaopca.dust.thorium_232_oxide.name
-jaopca:dust.tin_silver, item.jaopca.dust.tin_silver.name
-jaopca:dust.tough, item.jaopca.dust.tough.name
-jaopca:dust.ultimate, item.jaopca.dust.ultimate.name
-jaopca:dust.unstable, item.jaopca.dust.unstable.name
-jaopca:dust.unsweetened_chocolate, item.jaopca.dust.unsweetened_chocolate.name
-jaopca:dust.uranium_233, item.jaopca.dust.uranium_233.name
-jaopca:dust.uranium_233_oxide, item.jaopca.dust.uranium_233_oxide.name
-jaopca:dust.uranium_235, item.jaopca.dust.uranium_235.name
-jaopca:dust.uranium_235_oxide, item.jaopca.dust.uranium_235_oxide.name
-jaopca:dust.uranium_238, item.jaopca.dust.uranium_238.name
-jaopca:dust.uranium_238_oxide, item.jaopca.dust.uranium_238_oxide.name
-jaopca:dust.vibrant_alloy, item.jaopca.dust.vibrant_alloy.name
-jaopca:dust.vivid_alloy, item.jaopca.dust.vivid_alloy.name
-jaopca:dust.wub, item.jaopca.dust.wub.name
-jaopca:dust.zircaloy, item.jaopca.dust.zircaloy.name
-jaopca:mekanism_clump.aluminum, item.jaopca.mekanism_clump.aluminum.name
-jaopca:mekanism_clump.ardite, item.jaopca.mekanism_clump.ardite.name
-jaopca:mekanism_clump.boron, item.jaopca.mekanism_clump.boron.name
-jaopca:mekanism_clump.cobalt, item.jaopca.mekanism_clump.cobalt.name
-jaopca:mekanism_clump.iridium, item.jaopca.mekanism_clump.iridium.name
-jaopca:mekanism_clump.lithium, item.jaopca.mekanism_clump.lithium.name
-jaopca:mekanism_clump.magnesium, item.jaopca.mekanism_clump.magnesium.name
-jaopca:mekanism_clump.mithril, item.jaopca.mekanism_clump.mithril.name
-jaopca:mekanism_clump.nickel, item.jaopca.mekanism_clump.nickel.name
-jaopca:mekanism_clump.platinum, item.jaopca.mekanism_clump.platinum.name
-jaopca:mekanism_clump.thorium, item.jaopca.mekanism_clump.thorium.name
-jaopca:mekanism_clump.uranium, item.jaopca.mekanism_clump.uranium.name
-jaopca:mekanism_crystal.aluminum, item.jaopca.mekanism_crystal.aluminum.name
-jaopca:mekanism_crystal.ardite, item.jaopca.mekanism_crystal.ardite.name
-jaopca:mekanism_crystal.boron, item.jaopca.mekanism_crystal.boron.name
-jaopca:mekanism_crystal.cobalt, item.jaopca.mekanism_crystal.cobalt.name
-jaopca:mekanism_crystal.iridium, item.jaopca.mekanism_crystal.iridium.name
-jaopca:mekanism_crystal.lithium, item.jaopca.mekanism_crystal.lithium.name
-jaopca:mekanism_crystal.magnesium, item.jaopca.mekanism_crystal.magnesium.name
-jaopca:mekanism_crystal.mithril, item.jaopca.mekanism_crystal.mithril.name
-jaopca:mekanism_crystal.nickel, item.jaopca.mekanism_crystal.nickel.name
-jaopca:mekanism_crystal.platinum, item.jaopca.mekanism_crystal.platinum.name
-jaopca:mekanism_crystal.thorium, item.jaopca.mekanism_crystal.thorium.name
-jaopca:mekanism_crystal.uranium, item.jaopca.mekanism_crystal.uranium.name
-jaopca:mekanism_dirty_dust.aluminum, item.jaopca.mekanism_dirty_dust.aluminum.name
-jaopca:mekanism_dirty_dust.ardite, item.jaopca.mekanism_dirty_dust.ardite.name
-jaopca:mekanism_dirty_dust.boron, item.jaopca.mekanism_dirty_dust.boron.name
-jaopca:mekanism_dirty_dust.cobalt, item.jaopca.mekanism_dirty_dust.cobalt.name
-jaopca:mekanism_dirty_dust.iridium, item.jaopca.mekanism_dirty_dust.iridium.name
-jaopca:mekanism_dirty_dust.lithium, item.jaopca.mekanism_dirty_dust.lithium.name
-jaopca:mekanism_dirty_dust.magnesium, item.jaopca.mekanism_dirty_dust.magnesium.name
-jaopca:mekanism_dirty_dust.mithril, item.jaopca.mekanism_dirty_dust.mithril.name
-jaopca:mekanism_dirty_dust.nickel, item.jaopca.mekanism_dirty_dust.nickel.name
-jaopca:mekanism_dirty_dust.platinum, item.jaopca.mekanism_dirty_dust.platinum.name
-jaopca:mekanism_dirty_dust.thorium, item.jaopca.mekanism_dirty_dust.thorium.name
-jaopca:mekanism_dirty_dust.uranium, item.jaopca.mekanism_dirty_dust.uranium.name
-jaopca:mekanism_shard.aluminum, item.jaopca.mekanism_shard.aluminum.name
-jaopca:mekanism_shard.ardite, item.jaopca.mekanism_shard.ardite.name
-jaopca:mekanism_shard.boron, item.jaopca.mekanism_shard.boron.name
-jaopca:mekanism_shard.cobalt, item.jaopca.mekanism_shard.cobalt.name
-jaopca:mekanism_shard.iridium, item.jaopca.mekanism_shard.iridium.name
-jaopca:mekanism_shard.lithium, item.jaopca.mekanism_shard.lithium.name
-jaopca:mekanism_shard.magnesium, item.jaopca.mekanism_shard.magnesium.name
-jaopca:mekanism_shard.mithril, item.jaopca.mekanism_shard.mithril.name
-jaopca:mekanism_shard.nickel, item.jaopca.mekanism_shard.nickel.name
-jaopca:mekanism_shard.platinum, item.jaopca.mekanism_shard.platinum.name
-jaopca:mekanism_shard.thorium, item.jaopca.mekanism_shard.thorium.name
-jaopca:mekanism_shard.uranium, item.jaopca.mekanism_shard.uranium.name
