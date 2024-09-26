@@ -120,3 +120,6 @@ mods.jei.JEI.hideCategory("jeresources.enchantment");
 //HarvestCraft market and bin - Removed in favor of quest
 mods.jei.JEI.removeAndHide(<harvestcraft:shippingbin>);
 mods.jei.JEI.removeAndHide(<harvestcraft:market>);
+
+//Ex compressum Iron Mesh - redundant
+mods.jei.JEI.removeAndHide(<excompressum:iron_mesh>);
