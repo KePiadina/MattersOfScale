@@ -1,4 +1,11 @@
 {
+	icon: {
+		id: "thermalexpansion:cache",
+		tag: {
+			Facing: 3b,
+			Level: 0b
+		}
+	},
 	x: -3.0d,
 	y: -10.5d,
 	text: [
@@ -18,5 +25,9 @@
 			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "9fb80569",
+		type: "checkmark"
 	}]
 }

@@ -1,0 +1,27 @@
+{
+	x: -9.0d,
+	y: -7.0d,
+	dependencies: [
+		"1e10911c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6c9b02f1",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	}],
+	rewards: [{
+		uid: "4d037a88",
+		type: "item",
+		item: "environmentaltech:structure_frame_1",
+		count: 16
+	},
+	{
+		uid: "87159614",
+		type: "item",
+		item: "environmentaltech:modifier_null",
+		count: 4
+	}]
+}

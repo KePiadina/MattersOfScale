@@ -1,4 +1,5 @@
 {
+	icon: "quantumstorage:quantum_storage_unit",
 	x: 0.0d,
 	y: -10.5d,
 	text: [
@@ -15,5 +16,9 @@
 		items: [{
 			item: "quantumstorage:quantum_storage_unit"
 		}]
+	},
+	{
+		uid: "7731523c",
+		type: "checkmark"
 	}]
 }

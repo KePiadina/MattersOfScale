@@ -1,4 +1,5 @@
 {
+	icon: "rftools:modular_storage",
 	x: -1.5d,
 	y: -12.0d,
 	text: [
@@ -27,5 +28,9 @@
 			item: "rftools:storage_module 1 2"
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "04d4d83c",
+		type: "checkmark"
 	}]
 }

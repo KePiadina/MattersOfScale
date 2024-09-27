@@ -1,6 +1,6 @@
 {
 	title: "Buffers",
-	x: -10.0d,
+	x: -13.5d,
 	y: -1.0d,
 	text: [
 		"Buffering is an important part of logistics as it lets machines run even if supply is not constant. This also applies to energy."
@@ -13,6 +13,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:device",
+			Damage: 5s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -25,8 +26,7 @@
 					1b,
 					1b
 				]
-			},
-			Damage: 5s
+			}
 		},
 		{
 			item: "enderio:block_buffer"
@@ -37,6 +37,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:device",
+			Damage: 6s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -49,8 +50,7 @@
 					1b,
 					1b
 				]
-			},
-			Damage: 6s
+			}
 		},
 		{
 			item: "enderio:block_tank"

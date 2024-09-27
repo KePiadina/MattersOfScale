@@ -1,4 +1,10 @@
 {
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
 	x: -4.5d,
 	y: -10.5d,
 	text: [
@@ -13,5 +19,9 @@
 				material: "oak"
 			}
 		}]
+	},
+	{
+		uid: "f2dc2c0f",
+		type: "checkmark"
 	}]
 }

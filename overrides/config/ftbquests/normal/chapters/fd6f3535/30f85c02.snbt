@@ -1,4 +1,5 @@
 {
+	icon: "enderutilities:storage_0 1 6",
 	x: 0.0d,
 	y: -12.0d,
 	text: [
@@ -13,5 +14,9 @@
 		items: [{
 			item: "enderutilities:storage_0 1 6"
 		}]
+	},
+	{
+		uid: "5fd70aba",
+		type: "checkmark"
 	}]
 }

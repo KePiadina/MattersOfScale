@@ -1,0 +1,22 @@
+{
+	title: "Zombie generators",
+	x: -11.5d,
+	y: 2.0d,
+	text: [
+		"Zombie jars have been buffed to be more efficient"
+	],
+	dependencies: [
+		"fc2c6c23"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5df75062",
+		type: "item",
+		items: [{
+			item: "enderio:block_franken_zombie_generator"
+		},
+		{
+			item: "enderio:block_zombie_generator"
+		}]
+	}]
+}

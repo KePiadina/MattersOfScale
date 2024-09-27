@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"Numismatic Dynamoes can be used to produce energy out of coins, according to the following exchange rate:",
+		"§eElectrum§r -> 40kRF",
+		"§cSignalum§r -> 100kRF",
+		"§3Enderium§r -> 150kRF"
+	],
+	dependencies: [
+		"6a5d788f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8abbf39f",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 5s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

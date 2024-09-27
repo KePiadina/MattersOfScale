@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"The Enrichment chamber can produce compressed versions of infuser materials, for 8x efficiency."
+	],
+	dependencies: [
+		"4cf05e94"
+	],
+	tasks: [{
+		uid: "58e7386e",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}]
+}

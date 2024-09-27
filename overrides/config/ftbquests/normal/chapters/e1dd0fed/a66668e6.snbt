@@ -21,10 +21,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:transmitter",
+			Damage: 1s,
 			tag: {
 				tier: 3
-			},
-			Damage: 1s
+			}
 		}]
 	},
 	{
@@ -32,10 +32,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:transmitter",
+			Damage: 2s,
 			tag: {
 				tier: 3
-			},
-			Damage: 2s
+			}
 		}]
 	},
 	{
@@ -43,10 +43,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:transmitter",
+			Damage: 3s,
 			tag: {
 				tier: 3
-			},
-			Damage: 3s
+			}
 		}]
 	},
 	{
@@ -54,10 +54,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:transmitter",
+			Damage: 6s,
 			tag: {
 				tier: 3
-			},
-			Damage: 6s
+			}
 		}]
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "Logistics",
-	x: -11.5d,
+	x: -14.5d,
 	y: -1.0d,
 	description: "Time to move",
 	text: [

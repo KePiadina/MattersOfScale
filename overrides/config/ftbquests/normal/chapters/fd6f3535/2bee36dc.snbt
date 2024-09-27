@@ -1,4 +1,5 @@
 {
+	icon: "minecraft:chest",
 	x: -4.5d,
 	y: -12.0d,
 	tasks: [{
@@ -7,5 +8,9 @@
 		items: [{
 			item: "minecraft:chest"
 		}]
+	},
+	{
+		uid: "559b9b21",
+		type: "checkmark"
 	}]
 }

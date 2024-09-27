@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"c43f53c9"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3c700a13",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:energy_level"
+		}]
+	}]
+}

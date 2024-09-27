@@ -1,0 +1,30 @@
+{
+	icon: "mekanism:basicblock 1 9",
+	x: 0.0d,
+	y: -13.5d,
+	text: [
+		"The Smallest Dynamic Tank (3x3x3) can store up to 1.7kB of fluid.",
+		"The Largest Dynamic Tank (18x18x18) can store up to 373kB of fluid"
+	],
+	dependencies: [
+		"ad798c79"
+	],
+	tasks: [{
+		uid: "d4407dd5",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 9"
+		}]
+	},
+	{
+		uid: "6dcb37fd",
+		type: "checkmark"
+	},
+	{
+		uid: "7de2b5d4",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 11"
+		}]
+	}]
+}

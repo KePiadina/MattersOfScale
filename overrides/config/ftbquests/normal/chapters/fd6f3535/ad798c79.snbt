@@ -1,0 +1,22 @@
+{
+	icon: "industrialrenewal:fluid_tank",
+	x: -1.5d,
+	y: -13.5d,
+	text: [
+		"The Industrial Renewal Fluid Tank can store 1000B of fluid, and can be stacked to increase it even further"
+	],
+	dependencies: [
+		"aa8bb8dd"
+	],
+	tasks: [{
+		uid: "211f6177",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:fluid_tank"
+		}]
+	},
+	{
+		uid: "76b1c64a",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 1.0d,
+	dependencies: [
+		"f4c61e07"
+	],
+	tasks: [{
+		uid: "51e29c14",
+		type: "item",
+		items: [{
+			item: "industrialrenewal:energy_cable_hv"
+		}]
+	}]
+}

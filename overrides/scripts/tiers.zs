@@ -101,8 +101,10 @@ recipes.addShaped(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 
 recipes.addShaped(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), [[null, <mekanismgenerators:reactorglass>, null], [<mekanismgenerators:reactorglass>, <ore:ingotEnderium>, <mekanismgenerators:reactorglass>], [null, <ore:alloyUltimate>, null]]);
 
 //Cryo Fluxduct
-recipes.addShaped(<thermaldynamics:duct_0:9> * 2, [[<ore:ingotSignalum>, <mekanism:basicblock:10>, <ore:ingotSignalum>], [<mekanism:basicblock:10>, <thermaldynamics:duct_0:4>, <mekanism:basicblock:10>], [<ore:ingotSignalum>, <mekanism:basicblock:10>, <ore:ingotSignalum>]]);
-recipes.addShaped(<thermaldynamics:duct_0:9> * 4, [[<ore:ingotEnderium>, <mekanismgenerators:reactorglass>, <ore:ingotEnderium>], [<mekanismgenerators:reactorglass>, <thermaldynamics:duct_0:4>, <mekanismgenerators:reactorglass>], [<ore:ingotEnderium>, <mekanismgenerators:reactorglass>, <ore:ingotEnderium>]]);
+recipes.remove(<thermaldynamics:duct_0:9>);
+recipes.addShaped(<thermaldynamics:duct_0:9> * 1, [[<ore:ingotElectrum>, <mekanism:basicblock:10>, <ore:ingotElectrum>], [<mekanism:basicblock:10>, <industrialrenewal:energy_cable_hv>, <mekanism:basicblock:10>], [<ore:ingotElectrum>, <mekanism:basicblock:10>, <ore:ingotElectrum>]]);
+recipes.addShaped(<thermaldynamics:duct_0:9> * 2, [[<ore:ingotSignalum>, <mekanism:basicblock:10>, <ore:ingotSignalum>], [<mekanism:basicblock:10>, <industrialrenewal:energy_cable_hv>, <mekanism:basicblock:10>], [<ore:ingotSignalum>, <mekanism:basicblock:10>, <ore:ingotSignalum>]]);
+recipes.addShaped(<thermaldynamics:duct_0:9> * 4, [[<ore:ingotEnderium>, <mekanismgenerators:reactorglass>, <ore:ingotEnderium>], [<mekanismgenerators:reactorglass>, <industrialrenewal:energy_cable_hv>, <mekanismgenerators:reactorglass>], [<ore:ingotEnderium>, <mekanismgenerators:reactorglass>, <ore:ingotEnderium>]]);
 
 //Steel casing
 recipes.addShaped(<mekanism:basicblock:8>, [[<ore:ingotSteel>, <thermalfoundation:material:864>, <ore:ingotSteel>], [<ore:blockGlassHardened>, <thermalfoundation:geode>, <ore:blockGlassHardened>], [<ore:ingotSteel>, <nuclearcraft:part:10>, <ore:ingotSteel>]]);

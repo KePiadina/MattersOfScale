@@ -1,0 +1,16 @@
+{
+	icon: "enderio:block_tank",
+	x: -4.5d,
+	y: -13.5d,
+	tasks: [{
+		uid: "df1a5a39",
+		type: "item",
+		items: [{
+			item: "enderio:block_tank"
+		}]
+	},
+	{
+		uid: "a16db0db",
+		type: "checkmark"
+	}]
+}

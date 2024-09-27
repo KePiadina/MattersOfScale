@@ -1,4 +1,5 @@
 {
+	icon: "actuallyadditions:block_giant_chest",
 	x: -3.0d,
 	y: -12.0d,
 	dependencies: [
@@ -10,5 +11,9 @@
 		items: [{
 			item: "actuallyadditions:block_giant_chest"
 		}]
+	},
+	{
+		uid: "b30f6f50",
+		type: "checkmark"
 	}]
 }

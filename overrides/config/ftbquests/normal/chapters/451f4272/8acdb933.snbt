@@ -1,6 +1,6 @@
 {
 	title: "Concerning amounts of slaughter",
-	x: -11.5d,
+	x: -14.5d,
 	y: 2.0d,
 	text: [
 		"Protein generator can break down most animal organic matter into protein, that will get consumed by the Protein reactor to generate energy.",
@@ -12,13 +12,6 @@
 		"379c4b1b"
 	],
 	tasks: [{
-		uid: "9b8f6c8a",
-		type: "item",
-		items: [{
-			item: "industrialforegoing:protein_generator"
-		}]
-	},
-	{
 		uid: "b156c32c",
 		type: "item",
 		items: [{

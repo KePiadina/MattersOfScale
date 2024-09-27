@@ -1,0 +1,19 @@
+{
+	icon: "cyclicmagic:block_storeempty",
+	x: -3.0d,
+	y: -13.5d,
+	dependencies: [
+		"83531635"
+	],
+	tasks: [{
+		uid: "723f0f0d",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_storeempty"
+		}]
+	},
+	{
+		uid: "21cf4c28",
+		type: "checkmark"
+	}]
+}

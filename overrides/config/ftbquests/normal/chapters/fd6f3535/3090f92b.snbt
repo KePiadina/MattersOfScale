@@ -1,4 +1,11 @@
 {
+	icon: {
+		id: "mekanism:basicblock",
+		Damage: 6s,
+		tag: {
+			tier: 3
+		}
+	},
 	x: -1.5d,
 	y: -10.5d,
 	text: [
@@ -12,11 +19,15 @@
 		type: "item",
 		items: [{
 			id: "mekanism:basicblock",
+			Damage: 6s,
 			tag: {
 				tier: 3
-			},
-			Damage: 6s
+			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "9d8bd161",
+		type: "checkmark"
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: -13.5d,
+	y: 2.0d,
+	dependencies: [
+		"8acdb933"
+	],
+	tasks: [{
+		uid: "8f58dcb0",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:protein_generator"
+		}]
+	}]
+}
