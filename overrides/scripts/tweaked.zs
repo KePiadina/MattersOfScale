@@ -210,6 +210,7 @@ mods.thermalexpansion.Centrifuge.addRecipe([(<minecraft:slime_ball> * 1) % 100],
 mods.thermalexpansion.Refinery.addRecipe(<liquid:if.pink_slime> * 1000, <industrialforegoing:pink_slime>, null, 4000);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<industrialforegoing:pink_slime_ingot>, <industrialforegoing:pink_slime>, <minecraft:iron_ingot>, 4000);
+mods.thermalexpansion.Transposer.addFillRecipe(<industrialforegoing:pink_slime>, <ore:slimeball>, <liquid:if.pink_slime> * 1000, 4000);
 
 //Made Vat cheaper & Jar generators more viable
 recipes.removeShaped(<enderio:block_vat>);
@@ -224,7 +225,7 @@ recipes.addShaped(<enderio:block_franken_zombie_generator>, [[<ore:ingotSoulariu
 //DML Numismatic dynamo
 mods.jei.JEI.removeAndHide(<thermalexpansion:augment:720>);
 recipes.removeShaped(<thermalexpansion:dynamo:5>);
-recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <deepmoblearning:data_model_blank>, null], [<ore:ingotIron>, <ore:gearConstantan>, <ore:ingotIron>], [<ore:ingotConstantan>, <ore:dustRedstone>, <ore:ingotConstantan>]]);
+recipes.addShaped(<thermalexpansion:dynamo:5>, [[null, <deepmoblearning:living_matter_overworldian> | <deepmoblearning:living_matter_hellish> | <deepmoblearning:living_matter_extraterrestrial>, null], [<ore:ingotIron>, <ore:gearConstantan>, <ore:ingotIron>], [<ore:ingotConstantan>, <ore:dustRedstone>, <ore:ingotConstantan>]]);
 
 //Tweaked recipe to make them harder but better
 recipes.removeShaped(<industrialrenewal:energy_cable_lv>);

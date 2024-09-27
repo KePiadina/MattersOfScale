@@ -98,7 +98,7 @@
       "minecraft:emerald,6",
       "appliedenergistics2:material,14",
       "thermalfoundation:geode,1",
-      "thermalfoundation:coin,3,97"
+      "thermalfoundation:coin,3,103"
     ],
     "deepLearnerDisplay": {
       "hearts": 100,
@@ -131,7 +131,7 @@
       "minecraft:end_crystal,1",
       "enderio:block_enderman_skull,2",
       "thermalfoundation:material,12,131",
-      "thermalfoundation:coin,3,97"
+      "thermalfoundation:coin,3,103"
     ],
     "trial": {
       "entities": "deepmoblearning:trial_enderman",
@@ -229,7 +229,7 @@
     "lootItems": [
       "minecraft:shulker_shell,18",
       "minecraft:diamond,2",
-      "thermalfoundation:coin,3,97"
+      "thermalfoundation:coin,3,103"
     ],
     "deepLearnerDisplay": {
       "hearts": 15,
@@ -425,7 +425,7 @@
       "minecraft:nether_star,3",
       "thermalfoundation:material,1,134",
       "immersiveengineering:metal,4,5",
-      "thermalfoundation:coin,3,97"
+      "thermalfoundation:coin,3,103"
     ],
     "deepLearnerDisplay": {
       "hearts": 150,
